@@ -1,0 +1,16 @@
+modules:
+  - title: React & Next.js
+    summary: Advanced architecture, SSR, RSC, and static-generation optimization for enterprise applications.
+    tags: [SSR, RSC, Performance]
+  - title: TypeScript
+    summary: Strict typing, complex generics, and type-safe API integrations across the stack.
+    tags: [Generics, Type-safety]
+  - title: Node.js
+    summary: Scalable microservices, REST/GraphQL APIs, and high-performance backend systems.
+    tags: [GraphQL, Microservices]
+  - title: Microfrontends
+    summary: Module federation, decoupled deployments, and scalable team architectures.
+    tags: [Module Federation, Scale]
+  - title: Design Systems
+    summary: Component libraries, token management, and consistent UI/UX implementation at scale.
+    tags: [Tokens, Accessibility]

@@ -1,0 +1,10 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Home from "@/components/Home.astro";
+
+const locale = "es" as const;
+---
+
+<BaseLayout locale={locale}>
+  <Home locale={locale} />
+</BaseLayout>

@@ -1,0 +1,99 @@
+---
+import { getEntry } from "astro:content";
+import type { Locale } from "@/i18n/config";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const entry = await getEntry("profile", locale);
+const p = entry!.data;
+
+const btnPrimary =
+  "inline-flex items-center gap-2 rounded border border-primary/40 bg-primary px-4 py-2.5 font-mono text-label text-on-primary transition-colors hover:bg-primary/90";
+const btnGhost =
+  "inline-flex items-center gap-2 rounded border border-border bg-surface px-4 py-2.5 font-mono text-label text-muted transition-colors hover:border-primary/40 hover:text-text";
+---
+
+<section class="relative">
+  <div class="mx-auto w-full max-w-page px-4 pt-10 md:px-8 md:pt-16">
+    <div
+      class="reveal relative overflow-hidden rounded-xl border border-border bg-surface/60"
+    >
+      <div
+        class="pointer-events-none absolute inset-0 opacity-[0.12]"
+        style="background-image:url('/images/hero-bg.webp');background-size:cover;background-position:center;"
+        aria-hidden="true"
+      >
+      </div>
+      <div class="dot-grid pointer-events-none absolute inset-0 opacity-40" aria-hidden="true">
+      </div>
+      <div
+        class="pointer-events-none absolute inset-0 bg-gradient-to-b from-canvas/10 via-canvas/30 to-canvas/80"
+        aria-hidden="true"
+      >
+      </div>
+
+      <div
+        class="relative flex items-center gap-2 border-b border-border/70 px-4 py-3 font-mono text-label text-faint"
+      >
+        <span class="size-2.5 rounded-full bg-border-strong"></span>
+        <span class="size-2.5 rounded-full bg-border-strong"></span>
+        <span class="size-2.5 rounded-full bg-border-strong"></span>
+        <span class="ml-3">portfolio.ts — node</span>
+      </div>
+
+      <div class="relative px-5 py-12 md:px-12 md:py-20">
+        <p class="font-mono text-label text-primary">
+          <span
+            data-typewriter
+            data-text="> INITIALIZING STRICT_MODE..."
+            data-delay="150"></span>
+        </p>
+
+        <h1 class="mt-5 text-display text-text">{p.name}</h1>
+
+        <p
+          class="mt-4 inline-flex items-center rounded border border-border bg-surface px-3 py-1.5 font-mono text-label text-secondary"
+        >
+          {p.roleToken}
+        </p>
+
+        <p class="mt-6 max-w-2xl text-base text-muted">{p.tagline}</p>
+
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href="#contact" class={btnPrimary}>&#9656; pnpm run contact</a>
+          <a href="#experience" class={btnGhost}>
+            import &#123; resume &#125; from './experience'
+          </a>
+        </div>
+
+        <div
+          class="mt-10 max-w-xl rounded-lg border border-border bg-canvas/70 p-5 font-mono text-small leading-7"
+        >
+          <span class="text-muted">const</span>{" "}
+          <span class="text-secondary">profiles</span>{" "}
+          <span class="text-muted">= &#123;</span><br />
+          &nbsp;&nbsp;<span class="text-primary">github</span><span
+            class="text-muted">: </span
+          ><a
+            href={p.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-accent hover:underline">"{p.githubHandle}"</a
+          ><span class="text-muted">,</span><br />
+          &nbsp;&nbsp;<span class="text-primary">linkedin</span><span
+            class="text-muted">: </span
+          ><a
+            href={p.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-accent hover:underline">"{p.linkedinHandle}"</a
+          ><br />
+          <span class="text-muted">&#125;;</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

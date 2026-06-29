@@ -1,0 +1,13 @@
+roles:
+  - title: Ingeniero de Software Principal
+    company: TechCorp
+    period: 2021 — Presente
+    current: true
+    summary: Diseñé y lideré la migración a una arquitectura de microfrontends, reduciendo los tiempos de despliegue en un 40% y habilitando flujos de trabajo autónomos por equipo.
+    tags: [Microfrontends, Arquitectura, Liderazgo]
+  - title: Desarrollador Frontend Senior
+    company: InnovateInc
+    period: 2018 — 2021
+    current: false
+    summary: Impulsé el desarrollo de un design system unificado usado en más de 15 aplicaciones internas, asegurando consistencia de marca y velocidad de desarrollo.
+    tags: [React, Design System, TypeScript]
