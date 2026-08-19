@@ -6,8 +6,8 @@ modules:
     summary: Tipado estricto, genéricos complejos e integraciones de API con seguridad de tipos en todo el stack.
     tags: [Genéricos, Tipado]
   - title: Node.js
-    summary: Microservicios escalables, APIs REST/GraphQL y sistemas backend de alto rendimiento.
-    tags: [GraphQL, Microservicios]
+    summary: Microservicios escalables, APIs REST y sistemas backend de alto rendimiento.
+    tags: [Microservicios]
   - title: Microfrontends
     summary: Module federation, despliegues desacoplados y arquitecturas escalables para equipos.
     tags: [Module Federation, Escala]

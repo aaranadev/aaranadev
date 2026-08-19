@@ -6,8 +6,8 @@ modules:
     summary: Strict typing, complex generics, and type-safe API integrations across the stack.
     tags: [Generics, Type-safety]
   - title: Node.js
-    summary: Scalable microservices, REST/GraphQL APIs, and high-performance backend systems.
-    tags: [GraphQL, Microservices]
+    summary: Scalable microservices, REST APIs, and high-performance backend systems.
+    tags: [Microservices]
   - title: Microfrontends
     summary: Module federation, decoupled deployments, and scalable team architectures.
     tags: [Module Federation, Scale]
