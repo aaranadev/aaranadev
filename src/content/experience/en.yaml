@@ -1,13 +1,37 @@
 roles:
   - title: Principal Software Engineer
-    company: TechCorp
-    period: 2021 — Present
+    company: CARTO
+    period: 2026 — Present
     current: true
-    summary: Architected and led the migration to a microfrontend architecture, reducing deployment times by 40% and enabling autonomous team workflows.
-    tags: [Microfrontends, Architecture, Leadership]
-  - title: Senior Frontend Developer
-    company: InnovateInc
-    period: 2018 — 2021
+    summary: Tech lead for CARTO's frontend platform — setting technical direction across the Agentic GIS product, mentoring senior engineers, and driving architecture that keeps geospatial analytics fast, composable, and shippable at scale.
+    tags: [Tech Lead, Frontend Platform, Geospatial, Architecture, Mentorship]
+  - title: Lead Frontend Engineer
+    company: CARTO
+    period: 2019 — 2026
     current: false
-    summary: Spearheaded the development of a unified design system used across 15+ internal applications, ensuring brand consistency and developer velocity.
-    tags: [React, Design System, TypeScript]
+    summary: Tech lead and engineering manager for CARTO's frontend organization — scaled the team through a Series C, owned the React/TypeScript platform, and shipped design-system adoption, microfrontend boundaries, and release quality across spatial analytics products.
+    tags: [Engineering Manager, Tech Lead, React, TypeScript, Design Systems, Microfrontends]
+  - title: Senior Software Engineer
+    company: CARTO
+    period: 2018 — 2019
+    current: false
+    summary: Senior engineer on CARTO's core platform during the Geographica integration — delivered high-impact spatial analytics features, hardened performance on map-heavy workloads, and established frontend patterns the org still builds on today.
+    tags: [React, WebGL, Performance, Spatial Analytics, Platform]
+  - title: Lead Frontend Engineer
+    company: Footters
+    period: 2017 — 2018
+    current: false
+    summary: First frontend hire and tech lead at Footters — built the product UI from scratch, led Portium and Footters web apps, and shipped a fast, data-rich experience for live football league coverage.
+    tags: [React, Tech Lead, Greenfield, Sports Tech, Performance]
+  - title: Full Stack Developer
+    company: baagloo
+    period: "2017"
+    current: false
+    summary: Full-stack delivery across client projects — modern JavaScript from API design through responsive UI in a small, fast-moving consultancy.
+    tags: [Full Stack, JavaScript, Consultancy, Ionic, Client Delivery]
+  - title: Frontend Developer
+    company: RealCom Code
+    period: "2016"
+    current: false
+    summary: Production frontends for enterprise clients — component-driven interfaces, cross-browser quality, and close collaboration with design and backend teams.
+    tags: [Frontend, Enterprise, JavaScript, UI Engineering, Components]

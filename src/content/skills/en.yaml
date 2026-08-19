@@ -1,16 +1,25 @@
 modules:
+  - title: JavaScript
+    summary: Deep expertise across the modern JavaScript ecosystem — language fundamentals, async patterns, bundlers, testing, and the tooling that keeps teams shipping with confidence.
+    tags: [ESNext, Async/Await, Tooling, Testing, Performance]
   - title: React
-    summary: Advanced architecture, SSR, RSC, and static-generation optimization for enterprise applications.
-    tags: [SSR, RSC, Performance]
+    summary: React is my home base in the JS ecosystem — component architecture, hooks, composition, and production UIs from SPA to full-stack applications.
+    tags: [Hooks, Composition, State Management, SSR, Ecosystem]
   - title: TypeScript
     summary: Strict typing, complex generics, and type-safe API integrations across the stack.
-    tags: [Generics, Type-safety]
+    tags: [Type-safety]
+  - title: Frameworks
+    summary: First-class fluency with TanStack Router, Next.js, and Astro — routing, data loading, SSR/SSG, and choosing the right framework for each product surface.
+    tags: [TanStack Router, Next.js, Astro, SSR, App Router]
+  - title: HTML & CSS
+    summary: Expert in semantic HTML and modern CSS — responsive layouts, accessible interfaces, and the craft layer every great frontend is built on.
+    tags: [Semantic HTML, CSS Grid, Flexbox, Responsive, Accessibility]
   - title: Node.js
-    summary: Scalable microservices, REST APIs, and high-performance backend systems.
-    tags: [Microservices]
-  - title: Microfrontends
-    summary: Module federation, decoupled deployments, and scalable team architectures.
-    tags: [Module Federation, Scale]
+    summary: Solid mid-level backend skills — REST APIs, service design, and Node.js patterns that complement my frontend work without pretending to be infra-first.
+    tags: [REST APIs, Express, Microservices, API Design]
   - title: Design Systems
     summary: Component libraries, token management, and consistent UI/UX implementation at scale.
     tags: [Tokens, Accessibility]
+  - title: Architecture
+    summary: Expert in software architecture and open-source library design — microfrontends, module boundaries, published packages, and systems that scale with teams.
+    tags: [Microfrontends, Module Federation, OSS, DX, Scalability]
