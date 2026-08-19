@@ -4,13 +4,13 @@ roles:
     period: 2026 — Presente
     current: true
     summary: Tech lead de la plataforma frontend de CARTO — dirección técnica del producto Agentic GIS, mentoría de ingenieros senior y arquitectura que mantiene el análisis geoespacial rápido, composable y escalable.
-    tags: [Tech Lead, Plataforma Frontend, Geoespacial, Arquitectura, Mentoría]
+    tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma, Engineering Manager, Tech Lead, TypeScript, Design Systems, Mentoría, Arquitectura, Plataforma Frontend, Geoespacial]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
-    summary: Tech lead y engineering manager del equipo frontend de CARTO — escalé el equipo durante una Serie C, lideré la plataforma React/TypeScript e impulsé design systems, microfrontends y calidad de release en productos de analítica espacial.
-    tags: [Engineering Manager, Tech Lead, React, TypeScript, Design Systems, Microfrontends]
+    summary: Tech lead y engineering manager del equipo frontend de CARTO — escalé el equipo durante una Serie C, lideré la plataforma React/TypeScript e impulsé design systems, límites de plataforma y calidad de release en productos de analítica espacial.
+    tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma, Engineering Manager, Tech Lead, TypeScript, Design Systems]
   - title: Ingeniero de Software Senior
     company: CARTO
     period: 2018 — 2019
@@ -21,8 +21,20 @@ roles:
     company: Footters
     period: 2017 — 2018
     current: false
-    summary: Primer frontend y tech lead en Footters — construí la UI del producto desde cero, lideré las apps web de Portium y Footters, y entregué una experiencia rápida y rica en datos para cobertura en vivo de la Primera RFEF.
+    summary: Tech lead en Footters — construí la UI del producto desde cero y entregué una experiencia rápida y rica en datos para la cobertura en vivo de la Primera RFEF.
     tags: [React, Tech Lead, Greenfield, Sports Tech, Rendimiento]
+  - title: Lead Frontend Engineer
+    company: Portium
+    period: 2017 — 2018
+    current: false
+    summary: Frontend lead en Portium dentro del grupo Footters — arquitectura de la app web e interfaz responsive y orientada a datos para contenido deportivo.
+    tags: [React, Tech Lead, Greenfield, Sports Tech, UI Architecture]
+  - title: Desarrollador Frontend
+    company: Toury de Fietsgame
+    period: "2017"
+    current: false
+    summary: Frontend para una experiencia de juego ciclista — UI interactiva, flujos de juego y rendering con foco en rendimiento en una startup orientada a producto.
+    tags: [Frontend, JavaScript, UI Interactiva, Game UX, Rendimiento]
   - title: Desarrollador Full Stack
     company: baagloo
     period: "2017"
@@ -35,3 +47,15 @@ roles:
     current: false
     summary: Frontends de producción para clientes enterprise — interfaces basadas en componentes, calidad cross-browser y colaboración estrecha con diseño y backend.
     tags: [Frontend, Enterprise, JavaScript, UI Engineering, Componentes]
+  - title: Desarrollador Frontend
+    company: Schneider Electric
+    period: "2016"
+    current: false
+    summary: Soluciones frontend para Schneider Electric — interfaces enterprise, estándares de accesibilidad e integración con servicios backend.
+    tags: [Frontend, Enterprise, JavaScript, Accesibilidad, Integración]
+  - title: Desarrollador de Sistemas IT
+    company: AZCATEC
+    period: 2014 — 2016
+    current: false
+    summary: Rol de inicio de carrera en hardware, software y gestión de redes — experiencia base construyendo y manteniendo sistemas de producción de punta a punta.
+    tags: [Sistemas, Redes, Hardware, Software, Infraestructura]

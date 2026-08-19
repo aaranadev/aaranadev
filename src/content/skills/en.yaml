@@ -1,7 +1,7 @@
 modules:
   - title: JavaScript
     summary: Deep expertise across the modern JavaScript ecosystem — language fundamentals, async patterns, bundlers, testing, and the tooling that keeps teams shipping with confidence.
-    tags: [ESNext, Async/Await, Tooling, Testing, Performance]
+    tags: [Modern JavaScript, Tooling, Testing, Performance, Ecosystem]
   - title: React
     summary: React is my home base in the JS ecosystem — component architecture, hooks, composition, and production UIs from SPA to full-stack applications.
     tags: [Hooks, Composition, State Management, SSR, Ecosystem]
@@ -10,7 +10,7 @@ modules:
     tags: [Type-safety]
   - title: Frameworks
     summary: First-class fluency with TanStack Router, Next.js, and Astro — routing, data loading, SSR/SSG, and choosing the right framework for each product surface.
-    tags: [TanStack Router, Next.js, Astro, SSR, App Router]
+    tags: [TanStack Router, Next.js, Astro, SSR]
   - title: HTML & CSS
     summary: Expert in semantic HTML and modern CSS — responsive layouts, accessible interfaces, and the craft layer every great frontend is built on.
     tags: [Semantic HTML, CSS Grid, Flexbox, Responsive, Accessibility]
@@ -21,5 +21,5 @@ modules:
     summary: Component libraries, token management, and consistent UI/UX implementation at scale.
     tags: [Tokens, Accessibility]
   - title: Architecture
-    summary: Expert in software architecture and open-source library design — microfrontends, module boundaries, published packages, and systems that scale with teams.
-    tags: [Microfrontends, Module Federation, OSS, DX, Scalability]
+    summary: Expert in software architecture and open-source library design — published packages, library authoring, and systems that scale with teams.
+    tags: [Library Authoring, OSS, DX, Scalability, System Design]
