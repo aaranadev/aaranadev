@@ -1,5 +1,5 @@
 modules:
-  - title: React & Next.js
+  - title: React
     summary: Arquitectura avanzada, SSR, RSC y optimización de generación estática para aplicaciones empresariales.
     tags: [SSR, RSC, Rendimiento]
   - title: TypeScript

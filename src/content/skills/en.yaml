@@ -1,5 +1,5 @@
 modules:
-  - title: React & Next.js
+  - title: React
     summary: Advanced architecture, SSR, RSC, and static-generation optimization for enterprise applications.
     tags: [SSR, RSC, Performance]
   - title: TypeScript
