@@ -58,7 +58,7 @@ const ogSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"
   <circle cx="96" cy="90" r="6" fill="${BORDER}"/>
   <circle cx="118" cy="90" r="6" fill="${BORDER}"/>
   <circle cx="140" cy="90" r="6" fill="${BORDER}"/>
-  <text x="168" y="95" fill="${MUTED}" font-family="monospace" font-size="16">portfolio.ts — node</text>
+  <text x="168" y="95" fill="${MUTED}" font-family="monospace" font-size="16">portfolio.ts</text>
 
   <g transform="translate(110 168)">
     <text fill="${PRIMARY}" font-family="monospace" font-size="22" letter-spacing="2">&gt; INITIALIZING STRICT_MODE...</text>

@@ -23,7 +23,7 @@
   <circle cx="96" cy="90" r="6" fill="#334155"/>
   <circle cx="118" cy="90" r="6" fill="#334155"/>
   <circle cx="140" cy="90" r="6" fill="#334155"/>
-  <text x="168" y="95" fill="#94a3b8" font-family="monospace" font-size="16">portfolio.ts — node</text>
+  <text x="168" y="95" fill="#94a3b8" font-family="monospace" font-size="16">portfolio.ts</text>
 
   <g transform="translate(110 168)">
     <text fill="#38bdf8" font-family="monospace" font-size="22" letter-spacing="2">&gt; INITIALIZING STRICT_MODE...</text>
