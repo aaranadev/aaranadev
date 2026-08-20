@@ -13,6 +13,8 @@ import {
 import { useTranslations } from "@/i18n/ui";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Analytics from "@vercel/analytics/astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 
 interface Props {
   locale: Locale;
@@ -131,13 +133,14 @@ const personLd = {
     </main>
     <Footer locale={locale} />
 
+    <Analytics />
+    <SpeedInsights />
+
     <script>
       import "../scripts/theme.ts";
       import "../scripts/menu.ts";
       import "../scripts/reveal.ts";
       import "../scripts/typewriter.ts";
-      import { inject } from "@vercel/analytics";
-      inject();
     </script>
   </body>
 </html>
