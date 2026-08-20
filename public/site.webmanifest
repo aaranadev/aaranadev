@@ -1,0 +1,14 @@
+{
+  "name": "Alberto Arana — Principal Software Engineer",
+  "short_name": "Alberto Arana",
+  "description": "Principal Software Engineer specializing in scalable architecture, frontend platforms, and high-performance systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" },
+    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

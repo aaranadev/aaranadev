@@ -1,0 +1,28 @@
+modules:
+  - title: JavaScript
+    summary: Experto en el ecosistema JavaScript moderno — fundamentos del lenguaje, patrones async, bundlers, testing y el tooling que permite a los equipos entregar con confianza.
+    tags: [JavaScript Moderno, Tooling, Testing, Rendimiento, Ecosistema]
+  - title: React
+    summary: React es mi framework principal en el ecosistema JS — arquitectura de componentes, hooks, composición e interfaces de producción, de SPA a aplicaciones full-stack.
+    tags: [Hooks, Composición, State Management, SSR, Ecosistema]
+  - title: TypeScript
+    summary: Tipado estricto, genéricos complejos e integraciones de API con seguridad de tipos en todo el stack.
+    tags: [Type-safety]
+  - title: Frameworks
+    summary: Dominio de primer nivel en TanStack Router, Next.js y Astro — routing, carga de datos, SSR/SSG y elegir el framework adecuado para cada superficie de producto.
+    tags: [TanStack Router, Next.js, Astro, SSR]
+  - title: HTML & CSS
+    summary: Experto en HTML semántico y CSS moderno — layouts responsive, interfaces accesibles y la capa artesanal sobre la que se construye todo buen frontend.
+    tags: [HTML Semántico, CSS Grid, Flexbox, Responsive, Accesibilidad]
+  - title: Node.js
+    summary: Nivel medio-alto en backend — APIs REST, diseño de servicios y patrones Node.js que complementan mi trabajo frontend sin pretender ser infra-first.
+    tags: [REST APIs, Express, Microservicios, API Design]
+  - title: Design Systems
+    summary: Librerías de componentes, gestión de tokens e implementación de UI/UX consistente a escala.
+    tags: [Tokens, Accesibilidad]
+  - title: Arquitectura
+    summary: Experto en arquitectura de software y diseño de librerías open source — paquetes publicados, autoría de librerías y sistemas que escalan con los equipos.
+    tags: [Autoría de Librerías, OSS, DX, Escalabilidad, System Design]
+  - title: AI
+    summary: Integración práctica de AI en flujos de producto — prompting, tooling agentic y features asistidas por LLM fiables sin sacrificar UX ni estándares de ingeniería.
+    tags: [Integración LLM, Agents, Prompting, DX, Product AI]

@@ -1,0 +1,143 @@
+---
+import "@fontsource-variable/geist";
+import "@fontsource-variable/jetbrains-mono";
+import "@/styles/global.css";
+
+import { getEntry } from "astro:content";
+import {
+  locales,
+  localeMeta,
+  alternatePath,
+  type Locale,
+} from "@/i18n/config";
+import { useTranslations } from "@/i18n/ui";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+interface Props {
+  locale: Locale;
+  title?: string;
+  description?: string;
+}
+
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const title = Astro.props.title ?? t("meta.title");
+const description = Astro.props.description ?? t("meta.description");
+
+const site = Astro.site ?? new URL("https://aarana.dev");
+const canonical = new URL(Astro.url.pathname, site);
+const ogImage = new URL("/og.png", site);
+
+const profile = (await getEntry("profile", locale))!.data;
+const personLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: profile.name,
+  url: site.href,
+  jobTitle: profile.role,
+  description,
+  image: ogImage.href,
+  sameAs: [profile.githubUrl, profile.linkedinUrl],
+};
+---
+
+<!doctype html>
+<html lang={localeMeta[locale].htmlLang} data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    {
+      locales.map((l) => (
+        <link
+          rel="alternate"
+          hreflang={localeMeta[l].htmlLang}
+          href={new URL(alternatePath(Astro.url.pathname, l), site).href}
+        />
+      ))
+    }
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={new URL(alternatePath(Astro.url.pathname, "en"), site).href}
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Alberto Arana" />
+    <meta property="og:locale" content={locale === "es" ? "es_ES" : "en_US"} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage.href} />
+
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={JSON.stringify(personLd)}
+    />
+
+    {/* Set the theme before paint to avoid a flash of the wrong theme. */}
+    <script is:inline>
+      (function () {
+        document.documentElement.classList.add("js");
+        try {
+          var stored = localStorage.getItem("theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.dataset.theme = theme;
+        } catch (e) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a
+      href="#main"
+      class="sr-only rounded border border-border bg-surface px-3 py-2 font-mono text-label text-text focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50"
+    >
+      {t("a11y.skipToContent")}
+    </a>
+
+    <div id="top"></div>
+    <Header locale={locale} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer locale={locale} />
+
+    <script>
+      import "../scripts/theme.ts";
+      import "../scripts/menu.ts";
+      import "../scripts/reveal.ts";
+      import "../scripts/typewriter.ts";
+      import { inject } from "@vercel/analytics";
+      inject();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+---
+interface Props {
+  class?: string;
+  title?: string;
+}
+
+const { class: className = "", title = "Alberto Arana" } = Astro.props;
+---
+
+<svg
+  class={className}
+  viewBox="0 0 48 48"
+  fill="currentColor"
+  role="img"
+  aria-label={title}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>{title}</title>
+  <text
+    x="24"
+    y="30"
+    text-anchor="middle"
+    font-family="'Geist Variable', system-ui, sans-serif"
+    font-weight="800"
+    font-size="30"
+    letter-spacing="-1">AA</text
+  >
+  <text
+    x="24"
+    y="44"
+    text-anchor="middle"
+    font-family="'JetBrains Mono Variable', ui-monospace, monospace"
+    font-weight="700"
+    font-size="12">&gt;_</text
+  >
+</svg>

@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+/* Theme is driven by a [data-theme] attribute on <html>; dark is the default. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  /* Fonts (self-hosted variable fonts, imported in BaseLayout) */
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Semantic colors resolve to runtime variables so they swap per theme */
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--c-border);
+  --color-border-strong: var(--c-border-strong);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-ring: var(--ring);
+
+  /* Type scale (shared, from "Senior Technical Presence" + display from "Lumina Tech") */
+  --text-display: 3rem;
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.04em;
+  --text-display--font-weight: 600;
+
+  --text-headline: 2rem;
+  --text-headline--line-height: 1.2;
+  --text-headline--letter-spacing: -0.02em;
+  --text-headline--font-weight: 600;
+
+  --text-subhead: 1.25rem;
+  --text-subhead--line-height: 1.4;
+  --text-subhead--letter-spacing: -0.01em;
+  --text-subhead--font-weight: 500;
+
+  --text-body: 0.875rem;
+  --text-body--line-height: 1.7;
+
+  --text-small: 0.8125rem;
+  --text-small--line-height: 1.55;
+
+  --text-label: 0.75rem;
+  --text-label--line-height: 1.4;
+  --text-label--letter-spacing: 0.05em;
+
+  /* Layout: max content width 1280px */
+  --container-page: 80rem;
+}
+
+/* ---- Dark theme (default): "Senior Technical Presence" ---- */
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #0f172a;
+  --surface: #1e293b;
+  --surface-2: #223247;
+  --c-border: #334155;
+  --c-border-strong: #475569;
+  --text: #eaf1ff;
+  --muted: #a3b0c2;
+  --faint: #8b97aa;
+  --primary: #38bdf8;
+  --on-primary: #0b1220;
+  --secondary: #8792fe;
+  --accent: #f1a02b;
+  --ring: #38bdf8;
+}
+
+/* ---- Light theme: "Lumina Tech" ---- */
+[data-theme="light"] {
+  color-scheme: light;
+  --canvas: #faf8ff;
+  --surface: #ffffff;
+  --surface-2: #f2f3ff;
+  --c-border: #c3c5d9;
+  --c-border-strong: #9aa0bd;
+  --text: #131b2e;
+  --muted: #434656;
+  --faint: #6b6f86;
+  --primary: #0052ff;
+  --on-primary: #ffffff;
+  --secondary: #505f76;
+  --accent: #0038b6;
+  --ring: #0052ff;
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-primary) 28%, transparent);
+    color: var(--color-text);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Faint engineering dot-grid used behind the hero terminal */
+  .dot-grid {
+    background-image: radial-gradient(
+      color-mix(in oklab, var(--color-border) 70%, transparent) 1px,
+      transparent 1px
+    );
+    background-size: 22px 22px;
+  }
+
+  /* Scroll-reveal: only hide when JS is available (progressive enhancement). */
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+    will-change: opacity, transform;
+  }
+  .js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .js .reveal {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  /* Theme toggle icon visibility follows the active theme */
+  .theme-icon-sun {
+    display: none;
+  }
+  .theme-icon-moon {
+    display: inline-flex;
+  }
+  [data-theme="light"] .theme-icon-sun {
+    display: inline-flex;
+  }
+  [data-theme="light"] .theme-icon-moon {
+    display: none;
+  }
+
+  /* Mobile menu panel */
+  [data-menu] {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+      opacity 0.25s ease,
+      visibility 0s linear 0.25s;
+  }
+  [data-menu][data-open="true"] {
+    visibility: visible;
+    opacity: 1;
+    transition:
+      opacity 0.25s ease,
+      visibility 0s;
+  }
+
+  /* Blinking caret for the typewriter hero */
+  .caret::after {
+    content: "";
+    display: inline-block;
+    width: 0.55ch;
+    height: 1.05em;
+    margin-left: 1px;
+    translate: 0 0.18em;
+    background: var(--color-primary);
+    animation: caret-blink 1.05s step-end infinite;
+  }
+  @keyframes caret-blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}

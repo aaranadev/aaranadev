@@ -1,0 +1,143 @@
+---
+import { getEntry } from "astro:content";
+import type { Locale } from "@/i18n/config";
+import { useTranslations } from "@/i18n/ui";
+import Logo from "./Logo.astro";
+
+interface Props {
+  locale: Locale;
+  navItems: { href: string; label: string }[];
+}
+
+const { locale, navItems } = Astro.props;
+const t = useTranslations(locale);
+const p = (await getEntry("profile", locale))!.data;
+
+const iconLink =
+  "inline-flex size-10 items-center justify-center rounded border border-border bg-surface text-muted transition-colors hover:border-primary/40 hover:text-text";
+---
+
+<div
+  id="mobile-menu"
+  data-menu
+  data-open="false"
+  role="dialog"
+  aria-modal="true"
+  aria-label={t("a11y.menu")}
+  class="fixed inset-0 z-50 md:hidden"
+>
+  <div class="absolute inset-0 bg-canvas"></div>
+  <div
+    class="dot-grid pointer-events-none absolute inset-0 opacity-40"
+    aria-hidden="true"
+  >
+  </div>
+
+  <div class="relative flex h-full flex-col">
+    <div
+      class="flex h-16 items-center justify-between border-b border-border px-4"
+    >
+      <span
+        class="inline-flex items-center gap-2.5 font-mono text-label text-muted"
+      >
+        <Logo class="size-6 text-text" />
+        portfolio@aaranadev
+      </span>
+      <button
+        type="button"
+        data-menu-close
+        aria-label={t("a11y.closeMenu")}
+        class="inline-flex size-9 items-center justify-center rounded border border-border bg-surface text-muted transition-colors hover:border-primary/40 hover:text-text"
+      >
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <path d="M18 6 6 18M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <nav
+      aria-label={t("a11y.primaryNav")}
+      class="flex flex-1 flex-col justify-center gap-3 px-5"
+    >
+      {
+        navItems.map((item, i) => (
+          <a
+            href={item.href}
+            class="group flex items-center justify-between gap-4 rounded-lg border border-border bg-surface/50 px-5 py-5 transition-colors hover:border-primary/40 hover:bg-surface"
+          >
+            <span class="flex items-center gap-3 font-mono text-subhead">
+              <span class="text-faint">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span>
+                <span class="text-primary">portfolio</span>
+                <span class="text-text">{item.label}</span>
+              </span>
+            </span>
+            <span
+              class="text-faint transition-transform group-hover:translate-x-0.5 group-hover:text-primary"
+              aria-hidden="true"
+            >
+              &#8594;
+            </span>
+          </a>
+        ))
+      }
+    </nav>
+
+    <div
+      class="flex items-center justify-between border-t border-border px-5 py-6"
+    >
+      <span class="font-mono text-label text-faint">{p.role}</span>
+      <div class="flex items-center gap-3">
+        <a
+          href={p.githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={iconLink}
+          aria-label="GitHub"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.34 9.34 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href={p.linkedinUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class={iconLink}
+          aria-label="LinkedIn"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
