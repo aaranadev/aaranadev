@@ -2,6 +2,9 @@ featured:
   - slug: carto-professional-services
     title: CARTO Professional Services
     summary: Building client apps and consulting on top of CARTO — not the core product platform.
+    context: >
+      Location intelligence for enterprise clients — geospatial analytics and decisioning apps across
+      anonymized industries (retail, logistics, and adjacent). No public demos by design.
     problem: >
       CARTO customers need production geospatial applications tailored to their data, workflows, and
       cloud constraints — often under tight delivery timelines and with varying team maturity.
@@ -13,8 +16,9 @@ featured:
       Delivering reliable map-heavy apps across diverse enterprise stacks while keeping quality high,
       mentoring engineers, and staying aligned with CARTO's APIs without owning the core platform itself.
     outcome: >
-      Sustained leadership through Lead and Principal roles — client applications shipped in production,
-      reusable patterns shared across engagements, and strong partner-style delivery for CARTO customers.
+      Client geospatial apps shipped to production across multi-engagement PS work; reusable frontend
+      patterns and consulting playbooks that let teams deliver faster while CARTO's core product stays
+      owned by the platform org.
     differently: >
       Would formalize shared PS tooling earlier so every engagement starts from the same tested foundation.
     stack: [React, TypeScript, DeckGL, Geospatial]
@@ -24,6 +28,9 @@ featured:
   - slug: carto-ps-lib
     title: carto-ps-lib
     summary: CARTO Professional Services Library — a monorepo of React maps, UI, services, and tooling for PS delivery.
+    context: >
+      Private GitHub repo today (team access) — open-source release planned soon. Link points to the
+      existing CARTO org repository.
     problem: >
       Professional Services engagements repeatedly rebuilt the same maps UI, HTTP helpers, and quality
       configs — slowing delivery and drifting from consistent CARTO styling and best practices.
@@ -35,8 +42,8 @@ featured:
       Designing package boundaries that work across many client projects, keeping React / DeckGL stacks
       coherent, and preparing a private library for a near-term open-source release.
     outcome: >
-      A comprehensive PS library that gives the team ready-to-use geospatial components, services, and
-      DX tooling so modern CARTO apps ship faster with consistent quality.
+      Internal PS monorepo adopted for maps UI, services, and quality tooling — fewer greenfield rebuilds
+      per engagement, more consistent CARTO-aligned UX, and a clear path to public OSS docs and versioning.
     differently: >
       Would publish the open-source release path earlier with clearer versioning and adoption docs for
       external contributors.
@@ -47,6 +54,9 @@ featured:
   - slug: aarana-dev
     title: aarana.dev
     summary: This site — a static, bilingual portfolio built as a production-quality product MVP.
+    context: >
+      Tertiary case study — craft and shipping sample, not the primary hiring evidence. Primary evidence
+      lives in the CARTO PS and carto-ps-lib cases above.
     problem: >
       Need a single URL that converts recruiter scan-time into conversation — with evidence of craft,
       career narrative, and contact paths — not a template dump.
@@ -58,9 +68,10 @@ featured:
       keeping Lighthouse scores near 100 and shipping EN/ES in parallel.
     outcome: >
       Fully static bilingual site with strong SEO/a11y/performance baselines — the portfolio itself is
-      a working sample of platform thinking and product polish.
+      a working sample of product polish and content-driven architecture.
     differently: >
-      Would add deeper CASE metrics earlier and tighten the project narrative around Professional Services work.
+      Would keep CASE narratives tighter around Professional Services from day one and reserve this site
+      as a clear tertiary craft sample.
     stack: [Astro, TypeScript, Tailwind CSS, Vercel]
     tags: [Portfolio, i18n, Accessibility, Performance]
     demoUrl: https://aarana.dev

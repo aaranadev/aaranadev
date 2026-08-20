@@ -50,6 +50,7 @@ const projects = defineCollection({
         slug: z.string(),
         title: z.string(),
         summary: z.string(),
+        context: z.string().optional(),
         problem: z.string(),
         approach: z.string(),
         challenge: z.string(),

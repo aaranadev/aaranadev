@@ -8,6 +8,9 @@ modules:
   - title: TypeScript
     summary: Tipado estricto, genéricos complejos e integraciones de API con seguridad de tipos en todo el stack.
     tags: [Type-safety]
+  - title: Geoespacial
+    summary: UIs de producto con mapas (DeckGL), rendimiento WebGL, flujos de analítica espacial y aplicaciones de cliente sobre CARTO para location intelligence.
+    tags: [DeckGL, CARTO, WebGL, Analítica Espacial, Mapas]
   - title: Frameworks
     summary: Dominio de primer nivel en TanStack Router, Next.js y Astro — routing, carga de datos, SSR/SSG y elegir el framework adecuado para cada superficie de producto.
     tags: [TanStack Router, Next.js, Astro, SSR]

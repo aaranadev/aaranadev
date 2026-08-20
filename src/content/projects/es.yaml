@@ -2,6 +2,9 @@ featured:
   - slug: carto-professional-services
     title: CARTO Professional Services
     summary: Apps de cliente y consultoría sobre CARTO — no la plataforma core del producto.
+    context: >
+      Location intelligence para clientes enterprise — apps de analítica y decisión geoespacial en
+      industrias anonimizadas (retail, logística y adyacentes). Sin demos públicas a propósito.
     problem: >
       Los clientes de CARTO necesitan aplicaciones geoespaciales de producción adaptadas a sus datos,
       flujos y restricciones cloud — a menudo con plazos ajustados y madurez de equipo desigual.
@@ -13,8 +16,9 @@ featured:
       Entregar apps fiables con mapas en stacks enterprise diversos manteniendo calidad, mentoría y
       alineación con las APIs de CARTO sin ser owner de la plataforma core.
     outcome: >
-      Liderazgo sostenido en roles Lead y Principal — aplicaciones de cliente en producción, patrones
-      reutilizables entre proyectos y entrega de alto nivel para clientes de CARTO.
+      Apps geoespaciales de cliente en producción a lo largo de engagements de PS; patrones frontend
+      reutilizables y playbooks de consultoría que aceleran la entrega mientras la plataforma core de
+      CARTO sigue en el org de producto.
     differently: >
       Formalizaría antes el tooling compartido de PS para que cada engagement parta de la misma base probada.
     stack: [React, TypeScript, DeckGL, Geoespacial]
@@ -24,6 +28,9 @@ featured:
   - slug: carto-ps-lib
     title: carto-ps-lib
     summary: CARTO Professional Services Library — monorepo de mapas React, UI, servicios y tooling para delivery de PS.
+    context: >
+      Repo GitHub privado hoy (acceso de equipo) — release open-source previsto pronto. El enlace apunta
+      al repositorio existente en la org de CARTO.
     problem: >
       Los engagements de Professional Services reconstruían una y otra vez la misma UI de mapas, helpers
       HTTP y configs de calidad — ralentizando la entrega y desviándose de un estilo CARTO consistente.
@@ -35,8 +42,8 @@ featured:
       Diseñar límites de paquetes útiles en muchos proyectos de cliente, mantener coherente el stack
       React / DeckGL, y preparar una librería privada para un open-source cercano.
     outcome: >
-      Una librería PS completa que da al equipo componentes geoespaciales, servicios y DX listos para
-      usar, de modo que las apps CARTO modernas se entreguen más rápido y con calidad consistente.
+      Monorepo interno de PS adoptado para UI de mapas, servicios y tooling de calidad — menos rebuilds
+      greenfield por engagement, UX más alineada con CARTO, y un camino claro a docs y versionado OSS públicos.
     differently: >
       Publicaría antes el camino a open-source con versionado más claro y docs de adopción para
       contribuidores externos.
@@ -47,6 +54,9 @@ featured:
   - slug: aarana-dev
     title: aarana.dev
     summary: Este sitio — portfolio estático bilingüe construido como un MVP de producto listo para producción.
+    context: >
+      Case study terciario — muestra de craft y shipping, no la evidencia principal de hiring. La evidencia
+      principal está en los cases de CARTO PS y carto-ps-lib de arriba.
     problem: >
       Hace falta una URL única que convierta el escaneo de un recruiter en conversación — con evidencia
       de craft, narrativa de carrera y vías de contacto — no un dump de plantilla.
@@ -58,9 +68,10 @@ featured:
       Lighthouse cerca de 100 y entregando EN/ES en paralelo.
     outcome: >
       Sitio bilingüe 100% estático con bases sólidas de SEO/a11y/rendimiento — el portfolio es en sí
-      una muestra de pensamiento de plataforma y pulido de producto.
+      una muestra de pulido de producto y arquitectura content-driven.
     differently: >
-      Añadiría métricas CASE más profundas antes y afinaría la narrativa de proyectos en torno a Professional Services.
+      Mantendría las narrativas CASE más centradas en Professional Services desde el día uno y reservaría
+      este sitio como muestra terciaria de craft.
     stack: [Astro, TypeScript, Tailwind CSS, Vercel]
     tags: [Portfolio, i18n, Accesibilidad, Rendimiento]
     demoUrl: https://aarana.dev

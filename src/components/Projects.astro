@@ -41,6 +41,11 @@ const linkClass =
                 <p class="mt-2 max-w-2xl text-small text-muted">
                   {project.summary}
                 </p>
+                {project.context && (
+                  <p class="mt-2 max-w-2xl font-mono text-label text-faint">
+                    {project.context}
+                  </p>
+                )}
               </div>
               <div class="flex flex-wrap gap-3">
                 {project.demoUrl && (

@@ -5,9 +5,9 @@ roles:
     current: true
     summary: Tech lead en CARTO Professional Services — dirección técnica de aplicaciones geoespaciales de cliente orientadas a producto, mentoría a ingenieros senior y librerías compartidas que mantienen la entrega enterprise rápida y consistente.
     highlights:
-      - Mentoría a ingenieros senior y dirección arquitectónica en engagements de PS
-      - Estándares frontend reutilizables para apps construidas encima de CARTO — no la plataforma core del producto
-      - Continuidad Lead → Principal con entrega orientada a producto y tooling compartido de PS
+      - Dirección técnica en engagements de PS concurrentes para que las apps de cliente mantengan calidad de producto bajo presión real de entrega
+      - Mentoría a ingenieros senior y subida del listón arquitectónico en entrega React/TypeScript geoespacial
+      - Librerías y estándares compartidos de PS que reducen rework y mantienen coherentes las apps con mapas — sin ownership de la plataforma core de CARTO
     tags: [Mentoría, Arquitectura, Professional Services, Geoespacial, Tech Lead, Design Systems, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
@@ -15,9 +15,9 @@ roles:
     current: false
     summary: Tech lead y engineering manager en CARTO Professional Services — escalé el equipo durante una Serie C, lideré la entrega React/TypeScript de productos geoespaciales de cliente e impulsé design systems, patrones compartidos y calidad de release en engagements enterprise.
     highlights:
-      - Engineering manager y tech lead durante el crecimiento de la Serie C
-      - Ownership de la entrega React/TypeScript de aplicaciones de cliente orientadas a producto sobre CARTO
-      - Mayor calidad de release en apps geoespaciales con mapas y prácticas compartidas de PS
+      - Escalado de capacidad frontend de PS como engineering manager y tech lead durante el crecimiento de la Serie C
+      - Ownership de la entrega React/TypeScript de productos geoespaciales de cliente desde discovery hasta handoff a producción
+      - Adopción de design system y patrones compartidos que redujeron rework en engagements enterprise con mapas
     tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Ingeniero de Software Senior
     company: CARTO
@@ -25,9 +25,9 @@ roles:
     current: false
     summary: Ingeniero frontend senior durante la integración con Geographica — entregué features de alto impacto en analítica espacial para productos geoespaciales orientados a cliente, optimicé rendimiento en cargas con mapas y establecí patrones frontend que siguen apoyando la entrega.
     highlights:
-      - Features de alto impacto en analítica espacial durante la integración con Geographica
-      - Rendimiento endurecido en cargas WebGL con mapas
-      - Patrones frontend que siguen apoyando la entrega de producto
+      - Features de analítica espacial en productos orientados a cliente durante la integración Geographica → CARTO
+      - Rendimiento WebGL/mapas endurecido bajo cargas reales de datos enterprise
+      - Patrones frontend reutilizados después en la entrega de Professional Services
     tags: [React, WebGL, Rendimiento, Analítica Espacial, Producto]
   - title: Lead Frontend Engineer
     company: Footters / Portium
