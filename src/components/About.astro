@@ -1,0 +1,72 @@
+---
+import { getEntry } from "astro:content";
+import type { Locale } from "@/i18n/config";
+import { useTranslations } from "@/i18n/ui";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const about = (await getEntry("about", locale))!.data;
+const profile = (await getEntry("profile", locale))!.data;
+---
+
+<section id="about" class="scroll-mt-20">
+  <div class="mx-auto w-full max-w-page px-4 py-16 md:px-8 md:py-24">
+    <h2 class="sr-only">{t("section.about")}</h2>
+    <p
+      class="reveal flex items-center gap-2 border-b border-border pb-4 font-mono text-label text-muted"
+    >
+      <span class="text-primary">@</span> export &#123; about &#125; from './profile'
+    </p>
+
+    <div class="reveal mt-8 max-w-3xl">
+      <p class="text-base leading-relaxed text-muted">{about.intro}</p>
+      {
+        (profile.location || profile.timezone) && (
+          <p class="mt-4 font-mono text-label text-faint">
+            {profile.location}
+            {profile.location && profile.timezone ? " · " : ""}
+            {profile.timezone}
+          </p>
+        )
+      }
+    </div>
+
+    <div class="mt-12 grid gap-10 md:grid-cols-2">
+      <div class="reveal">
+        <h3 class="font-mono text-label tracking-wider text-primary">
+          {t("about.focus")}
+        </h3>
+        <ul class="mt-5 space-y-5">
+          {
+            about.focus.map((item) => (
+              <li>
+                <p class="text-subhead text-text">{item.title}</p>
+                <p class="mt-1 text-small text-muted">{item.summary}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
+      <div class="reveal" data-reveal-delay="80">
+        <h3 class="font-mono text-label tracking-wider text-primary">
+          {t("about.principles")}
+        </h3>
+        <ul class="mt-5 space-y-5">
+          {
+            about.principles.map((item) => (
+              <li>
+                <p class="text-subhead text-text">{item.title}</p>
+                <p class="mt-1 text-small text-muted">{item.summary}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

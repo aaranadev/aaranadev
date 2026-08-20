@@ -10,7 +10,7 @@ export const ui = {
   en: {
     "meta.title": "Alberto Arana — Principal Software Engineer",
     "meta.description":
-      "Principal Software Engineer specializing in scalable architecture, frontend platforms, and high-performance systems.",
+      "Principal engineer in CARTO Professional Services — product-minded React/TypeScript geospatial apps and shared libraries for enterprise clients.",
 
     "a11y.skipToContent": "Skip to content",
     "a11y.toggleTheme": "Toggle color theme",
@@ -22,10 +22,25 @@ export const ui = {
     "a11y.jumpToContact": "Jump to contact",
     "a11y.jumpToExperience": "Jump to experience",
     "a11y.backToTop": "Back to top",
+    "a11y.github": "GitHub",
+    "a11y.linkedin": "LinkedIn",
 
+    "section.about": "About",
+    "section.projects": "Projects",
     "section.stack": "Tech stack",
     "section.experience": "Experience",
     "section.contact": "Contact",
+
+    "about.focus": "What I focus on",
+    "about.principles": "How I work",
+
+    "projects.problem": "Problem",
+    "projects.approach": "Approach",
+    "projects.challenge": "Challenge",
+    "projects.outcome": "Outcome",
+    "projects.differently": "Differently",
+    "projects.demo": "demo",
+    "projects.repo": "repo",
 
     "contact.heading": "Let's build something",
     "contact.lead": "Open to collaboration, architecture reviews, and hard problems.",
@@ -36,7 +51,7 @@ export const ui = {
   es: {
     "meta.title": "Alberto Arana — Ingeniero de Software Principal",
     "meta.description":
-      "Ingeniero de Software Principal especializado en arquitectura escalable, plataformas frontend y sistemas de alto rendimiento.",
+      "Ingeniero principal en CARTO Professional Services — apps geoespaciales React/TypeScript orientadas a producto y librerías compartidas para clientes enterprise.",
 
     "a11y.skipToContent": "Saltar al contenido",
     "a11y.toggleTheme": "Cambiar tema de color",
@@ -48,10 +63,25 @@ export const ui = {
     "a11y.jumpToContact": "Ir a contacto",
     "a11y.jumpToExperience": "Ir a experiencia",
     "a11y.backToTop": "Volver arriba",
+    "a11y.github": "GitHub",
+    "a11y.linkedin": "LinkedIn",
 
+    "section.about": "Sobre mí",
+    "section.projects": "Proyectos",
     "section.stack": "Stack técnico",
     "section.experience": "Experiencia",
     "section.contact": "Contacto",
+
+    "about.focus": "En qué me enfoco",
+    "about.principles": "Cómo trabajo",
+
+    "projects.problem": "Problema",
+    "projects.approach": "Enfoque",
+    "projects.challenge": "Reto",
+    "projects.outcome": "Resultado",
+    "projects.differently": "Diferente",
+    "projects.demo": "demo",
+    "projects.repo": "repo",
 
     "contact.heading": "Construyamos algo",
     "contact.lead": "Abierto a colaboración, revisiones de arquitectura y problemas difíciles.",

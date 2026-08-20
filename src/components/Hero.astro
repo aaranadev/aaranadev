@@ -1,12 +1,14 @@
 ---
 import { getEntry } from "astro:content";
 import type { Locale } from "@/i18n/config";
+import { useTranslations } from "@/i18n/ui";
 
 interface Props {
   locale: Locale;
 }
 
 const { locale } = Astro.props;
+const t = useTranslations(locale);
 const entry = await getEntry("profile", locale);
 const p = entry!.data;
 
@@ -63,8 +65,18 @@ const btnGhost =
         <p class="mt-6 max-w-2xl text-base text-muted">{p.tagline}</p>
 
         <div class="mt-8 flex flex-wrap items-center gap-3">
-          <a href="#contact" class={btnPrimary}>&#9656; pnpm run contact</a>
-          <a href="#experience" class={btnGhost}>
+          <a
+            href="#contact"
+            class={btnPrimary}
+            aria-label={t("a11y.jumpToContact")}
+          >
+            &#9656; pnpm run contact
+          </a>
+          <a
+            href="#experience"
+            class={btnGhost}
+            aria-label={t("a11y.jumpToExperience")}
+          >
             import &#123; resume &#125; from './experience'
           </a>
         </div>

@@ -3,23 +3,39 @@ roles:
     company: CARTO
     period: 2026 — Presente
     current: true
-    summary: Tech lead de la plataforma frontend de CARTO — dirección técnica del producto Agentic GIS, mentoría de ingenieros senior y arquitectura que mantiene el análisis geoespacial rápido, composable y escalable.
-    tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma, Engineering Manager, Tech Lead, TypeScript, Design Systems, Mentoría, Arquitectura, Plataforma Frontend, Geoespacial]
+    summary: Tech lead en CARTO Professional Services — dirección técnica de aplicaciones geoespaciales de cliente orientadas a producto, mentoría a ingenieros senior y librerías compartidas que mantienen la entrega enterprise rápida y consistente.
+    highlights:
+      - Mentoría a ingenieros senior y dirección arquitectónica en engagements de PS
+      - Estándares frontend reutilizables para apps construidas encima de CARTO — no la plataforma core del producto
+      - Continuidad Lead → Principal con entrega orientada a producto y tooling compartido de PS
+    tags: [Mentoría, Arquitectura, Professional Services, Geoespacial, Tech Lead, Design Systems, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
-    summary: Tech lead y engineering manager del equipo frontend de CARTO — escalé el equipo durante una Serie C, lideré la plataforma React/TypeScript e impulsé design systems, límites de plataforma y calidad de release en productos de analítica espacial.
-    tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma, Engineering Manager, Tech Lead, TypeScript, Design Systems]
+    summary: Tech lead y engineering manager en CARTO Professional Services — escalé el equipo durante una Serie C, lideré la entrega React/TypeScript de productos geoespaciales de cliente e impulsé design systems, patrones compartidos y calidad de release en engagements enterprise.
+    highlights:
+      - Engineering manager y tech lead durante el crecimiento de la Serie C
+      - Ownership de la entrega React/TypeScript de aplicaciones de cliente orientadas a producto sobre CARTO
+      - Mayor calidad de release en apps geoespaciales con mapas y prácticas compartidas de PS
+    tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Ingeniero de Software Senior
     company: CARTO
     period: 2018 — 2019
     current: false
-    summary: Ingeniero senior en la plataforma core de CARTO durante la integración con Geographica — entregué features de alto impacto en analítica espacial, optimicé rendimiento en cargas con mapas y establecí patrones frontend que la organización sigue usando.
-    tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma]
+    summary: Ingeniero frontend senior durante la integración con Geographica — entregué features de alto impacto en analítica espacial para productos geoespaciales orientados a cliente, optimicé rendimiento en cargas con mapas y establecí patrones frontend que siguen apoyando la entrega.
+    highlights:
+      - Features de alto impacto en analítica espacial durante la integración con Geographica
+      - Rendimiento endurecido en cargas WebGL con mapas
+      - Patrones frontend que siguen apoyando la entrega de producto
+    tags: [React, WebGL, Rendimiento, Analítica Espacial, Producto]
   - title: Lead Frontend Engineer
     company: Footters / Portium
     period: 2017 — 2018
     current: false
     summary: Tech lead en Footters y Portium — construí la UI de Footters desde cero para la cobertura en vivo de la Primera RFEF, y lideré la arquitectura de la app web de Portium con una interfaz responsive y orientada a datos para contenido deportivo.
+    highlights:
+      - Primer frontend y tech lead en un producto deportivo greenfield
+      - Experiencia de cobertura en vivo rica en datos bajo restricciones de rendimiento
+      - Arquitectura de la app web de Portium para superficies de contenido deportivo
     tags: [React, Tech Lead, Greenfield, Sports Tech, Rendimiento, UI Architecture]

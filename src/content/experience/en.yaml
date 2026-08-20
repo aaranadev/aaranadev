@@ -3,23 +3,39 @@ roles:
     company: CARTO
     period: 2026 — Present
     current: true
-    summary: Tech lead for CARTO's frontend platform — setting technical direction across the Agentic GIS product, mentoring senior engineers, and driving architecture that keeps geospatial analytics fast, composable, and shippable at scale.
-    tags: [React, WebGL, Performance, Spatial Analytics, Platform, Engineering Manager, Tech Lead, TypeScript, Design Systems, Mentorship, Architecture, Frontend Platform, Geospatial]
+    summary: Tech lead in CARTO Professional Services — setting technical direction for product-minded geospatial client applications, mentoring senior engineers, and growing shared libraries that keep enterprise delivery fast and consistent.
+    highlights:
+      - Mentors senior engineers and sets architectural direction across PS engagements
+      - Drives reusable frontend standards for apps built on top of CARTO — not the core product platform
+      - Continues the Lead → Principal arc with product-oriented delivery and shared PS tooling
+    tags: [Mentorship, Architecture, Professional Services, Geospatial, Tech Lead, Design Systems, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
-    summary: Tech lead and engineering manager for CARTO's frontend organization — scaled the team through a Series C, owned the React/TypeScript platform, and shipped design-system adoption, platform boundaries, and release quality across spatial analytics products.
-    tags: [React, WebGL, Performance, Spatial Analytics, Platform, Engineering Manager, Tech Lead, TypeScript, Design Systems]
+    summary: Tech lead and engineering manager in CARTO Professional Services — scaled the team through a Series C, owned React/TypeScript delivery for client geospatial products, and shipped design-system adoption, shared patterns, and release quality across enterprise engagements.
+    highlights:
+      - Engineering manager and tech lead through Series C growth
+      - Owned React/TypeScript delivery for product-oriented client applications on CARTO
+      - Raised release quality across map-heavy geospatial apps and shared PS practices
+    tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Senior Software Engineer
     company: CARTO
     period: 2018 — 2019
     current: false
-    summary: Senior engineer on CARTO's core platform during the Geographica integration — delivered high-impact spatial analytics features, hardened performance on map-heavy workloads, and established frontend patterns the org still builds on today.
-    tags: [React, WebGL, Performance, Spatial Analytics, Platform]
+    summary: Senior frontend engineer during the Geographica integration — delivered high-impact spatial analytics features for customer-facing geospatial products, hardened performance on map-heavy workloads, and established frontend patterns still used in delivery today.
+    highlights:
+      - Shipped high-impact spatial analytics features during the Geographica integration
+      - Hardened performance for map-heavy WebGL workloads
+      - Established frontend patterns that still support product delivery
+    tags: [React, WebGL, Performance, Spatial Analytics, Product]
   - title: Lead Frontend Engineer
     company: Footters / Portium
     period: 2017 — 2018
     current: false
     summary: Tech lead across Footters and Portium — built the Footters product UI from scratch for live Primera RFEF coverage, and owned Portium's web app architecture with a responsive, data-driven interface for sports content.
+    highlights:
+      - First frontend hire and tech lead for a greenfield sports product
+      - Delivered a data-rich live coverage experience under performance constraints
+      - Owned Portium web app architecture for sports content surfaces
     tags: [React, Tech Lead, Greenfield, Sports Tech, Performance, UI Architecture]

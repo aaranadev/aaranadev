@@ -1,0 +1,67 @@
+featured:
+  - slug: carto-professional-services
+    title: CARTO Professional Services
+    summary: Building client apps and consulting on top of CARTO — not the core product platform.
+    problem: >
+      CARTO customers need production geospatial applications tailored to their data, workflows, and
+      cloud constraints — often under tight delivery timelines and with varying team maturity.
+    approach: >
+      As tech lead in Professional Services, I design and ship React/TypeScript applications on top of
+      CARTO, lead technical consulting engagements, and translate product capabilities into solutions
+      that fit each client's architecture and UX needs.
+    challenge: >
+      Delivering reliable map-heavy apps across diverse enterprise stacks while keeping quality high,
+      mentoring engineers, and staying aligned with CARTO's APIs without owning the core platform itself.
+    outcome: >
+      Sustained leadership through Lead and Principal roles — client applications shipped in production,
+      reusable patterns shared across engagements, and strong partner-style delivery for CARTO customers.
+    differently: >
+      Would formalize shared PS tooling earlier so every engagement starts from the same tested foundation.
+    stack: [React, TypeScript, DeckGL, Geospatial]
+    tags: [Professional Services, Consultancy, Client Apps, Tech Lead]
+    demoUrl: null
+    repoUrl: null
+  - slug: carto-ps-lib
+    title: carto-ps-lib
+    summary: CARTO Professional Services Library — a monorepo of React maps, UI, services, and tooling for PS delivery.
+    problem: >
+      Professional Services engagements repeatedly rebuilt the same maps UI, HTTP helpers, and quality
+      configs — slowing delivery and drifting from consistent CARTO styling and best practices.
+    approach: >
+      Built a Turbo monorepo of reusable packages: DeckGL React maps (`@carto/ps-react-maps`), React UI
+      components (`@carto/ps-react-ui`), HTTP/data services, shared utils, and a style-guide for ESLint,
+      Prettier, and TypeScript — with Storybook and generated docs for the team.
+    challenge: >
+      Designing package boundaries that work across many client projects, keeping React / DeckGL stacks
+      coherent, and preparing a private library for a near-term open-source release.
+    outcome: >
+      A comprehensive PS library that gives the team ready-to-use geospatial components, services, and
+      DX tooling so modern CARTO apps ship faster with consistent quality.
+    differently: >
+      Would publish the open-source release path earlier with clearer versioning and adoption docs for
+      external contributors.
+    stack: [React, TypeScript, DeckGL, Vite, Turbo, Storybook]
+    tags: [Library Authoring, Monorepo, Geospatial, DX]
+    demoUrl: null
+    repoUrl: https://github.com/CartoDB/carto-ps-lib
+  - slug: aarana-dev
+    title: aarana.dev
+    summary: This site — a static, bilingual portfolio built as a production-quality product MVP.
+    problem: >
+      Need a single URL that converts recruiter scan-time into conversation — with evidence of craft,
+      career narrative, and contact paths — not a template dump.
+    approach: >
+      Astro 7 static site, content collections per locale, Tailwind v4 design tokens, terminal/IDE
+      aesthetic, Person JSON-LD, hreflang, and accessibility-first interactions (theme, mobile dialog).
+    challenge: >
+      Balancing a distinctive developer aesthetic with clarity for non-technical recruiters, while
+      keeping Lighthouse scores near 100 and shipping EN/ES in parallel.
+    outcome: >
+      Fully static bilingual site with strong SEO/a11y/performance baselines — the portfolio itself is
+      a working sample of platform thinking and product polish.
+    differently: >
+      Would add deeper CASE metrics earlier and tighten the project narrative around Professional Services work.
+    stack: [Astro, TypeScript, Tailwind CSS, Vercel]
+    tags: [Portfolio, i18n, Accessibility, Performance]
+    demoUrl: https://aarana.dev
+    repoUrl: https://github.com/aaranadev/aaranadev

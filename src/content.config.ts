@@ -15,10 +15,52 @@ const profile = defineCollection({
     roleToken: z.string(),
     tagline: z.string(),
     location: z.string().optional(),
+    timezone: z.string().optional(),
     githubUrl: z.string().url(),
     linkedinUrl: z.string().url(),
     githubHandle: z.string(),
     linkedinHandle: z.string(),
+  }),
+});
+
+const about = defineCollection({
+  loader: glob({ base: "./src/content/about", pattern: "*.yaml" }),
+  schema: z.object({
+    intro: z.string(),
+    focus: z.array(
+      z.object({
+        title: z.string(),
+        summary: z.string(),
+      }),
+    ),
+    principles: z.array(
+      z.object({
+        title: z.string(),
+        summary: z.string(),
+      }),
+    ),
+  }),
+});
+
+const projects = defineCollection({
+  loader: glob({ base: "./src/content/projects", pattern: "*.yaml" }),
+  schema: z.object({
+    featured: z.array(
+      z.object({
+        slug: z.string(),
+        title: z.string(),
+        summary: z.string(),
+        problem: z.string(),
+        approach: z.string(),
+        challenge: z.string(),
+        outcome: z.string(),
+        differently: z.string().optional(),
+        stack: z.array(z.string()).default([]),
+        tags: z.array(z.string()).default([]),
+        demoUrl: z.string().url().nullable().optional(),
+        repoUrl: z.string().url().nullable().optional(),
+      }),
+    ),
   }),
 });
 
@@ -45,10 +87,11 @@ const experience = defineCollection({
         period: z.string(),
         current: z.boolean().default(false),
         summary: z.string(),
+        highlights: z.array(z.string()).default([]),
         tags: z.array(z.string()).default([]),
       }),
     ),
   }),
 });
 
-export const collections = { profile, skills, experience };
+export const collections = { profile, about, projects, skills, experience };
