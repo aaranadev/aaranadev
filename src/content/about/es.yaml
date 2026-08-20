@@ -7,9 +7,9 @@ focus:
   - title: Entrega orientada a producto
     summary: Partir del usuario y del outcome de negocio — entregar apps geoespaciales que resuelven un problema concreto del cliente, no plataformas abstractas por sí mismas.
   - title: Apps geoespaciales de cliente
-    summary: Aplicaciones React/TypeScript encima de CARTO — mapas, flujos y UX adaptados a cada engagement enterprise.
+    summary: Aplicaciones React/TypeScript encima de CARTO — incluido el liderazgo de Site Selection — con mapas, flujos y UX adaptados a cada engagement enterprise.
   - title: Librerías compartidas y arquitectura
-    summary: Paquetes reutilizables, límites de módulos y design systems que mantienen la entrega de Professional Services rápida y consistente.
+    summary: carto-ps-lib y paquetes relacionados — mapas, widgets, layers, edición de geometrías — para que equipos de PS y POCs asistidos por AI partan de la misma base.
   - title: Tipado de punta a punta
     summary: TypeScript estricto, tipos expresivos y contratos que detectan errores antes del runtime.
   - title: Developer experience
