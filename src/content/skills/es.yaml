@@ -23,3 +23,6 @@ modules:
   - title: Arquitectura
     summary: Experto en arquitectura de software y diseño de librerías open source — paquetes publicados, autoría de librerías y sistemas que escalan con los equipos.
     tags: [Autoría de Librerías, OSS, DX, Escalabilidad, System Design]
+  - title: AI
+    summary: Integración práctica de AI en flujos de producto — prompting, tooling agentic y features asistidas por LLM fiables sin sacrificar UX ni estándares de ingeniería.
+    tags: [Integración LLM, Agents, Prompting, DX, Product AI]

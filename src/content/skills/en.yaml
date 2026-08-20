@@ -23,3 +23,6 @@ modules:
   - title: Architecture
     summary: Expert in software architecture and open-source library design — published packages, library authoring, and systems that scale with teams.
     tags: [Library Authoring, OSS, DX, Scalability, System Design]
+  - title: AI
+    summary: Practical AI integration in product workflows — prompting, agentic tooling, and shipping reliable LLM-assisted features without sacrificing UX or engineering standards.
+    tags: [LLM Integration, Agents, Prompting, DX, Product AI]
