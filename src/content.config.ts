@@ -16,7 +16,6 @@ const profile = defineCollection({
     tagline: z.string(),
     location: z.string().optional(),
     timezone: z.string().optional(),
-    availability: z.string().optional(),
     githubUrl: z.string().url(),
     linkedinUrl: z.string().url(),
     githubHandle: z.string(),
@@ -40,7 +39,6 @@ const about = defineCollection({
         summary: z.string(),
       }),
     ),
-    openTo: z.string(),
   }),
 });
 

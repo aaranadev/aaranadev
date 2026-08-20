@@ -43,8 +43,7 @@ export const ui = {
     "projects.repo": "repo",
 
     "contact.heading": "Let's build something",
-    "contact.lead":
-      "Open to Principal / Staff Frontend roles — remote collaboration, architecture reviews, and hard problems.",
+    "contact.lead": "Open to collaboration, architecture reviews, and hard problems.",
 
     "footer.tagline": "Building robust systems with calm precision.",
     "footer.rights": "All rights reserved.",
@@ -85,8 +84,7 @@ export const ui = {
     "projects.repo": "repo",
 
     "contact.heading": "Construyamos algo",
-    "contact.lead":
-      "Abierto a roles Principal / Staff Frontend — colaboración remota, revisiones de arquitectura y problemas difíciles.",
+    "contact.lead": "Abierto a colaboración, revisiones de arquitectura y problemas difíciles.",
 
     "footer.tagline": "Construyendo sistemas robustos con precisión y calma.",
     "footer.rights": "Todos los derechos reservados.",
