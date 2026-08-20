@@ -1,17 +1,19 @@
 intro: >
   Soy Alberto Arana — Ingeniero de Software Principal y especialista en frontend con base sólida en backend.
-  Construyo interfaces pulidas y las APIs, herramientas y arquitectura que las sostienen. Disfruto las
-  partes poco glamurosas de la ingeniería: límites claros, menos complejidad accidental y dejar el
-  código más calmado de lo que lo encontré.
+  Mi enfoque está orientado a producto: construyo interfaces pulidas y las APIs, herramientas y arquitectura
+  que hacen usables los productos geoespaciales para clientes reales. Disfruto las partes poco glamurosas
+  de la ingeniería — límites claros, menos complejidad accidental y dejar el código más calmado de lo que lo encontré.
 focus:
-  - title: Plataformas frontend
-    summary: Sistemas React/TypeScript, design systems y superficies de producto que se mantienen coherentes cuando crecen equipos y features.
-  - title: Arquitectura escalable
-    summary: Convertir requisitos difusos en sistemas simples — límites de módulos, librerías publicadas y ownership claro.
+  - title: Entrega orientada a producto
+    summary: Partir del usuario y del outcome de negocio — entregar apps geoespaciales que resuelven un problema concreto del cliente, no plataformas abstractas por sí mismas.
+  - title: Apps geoespaciales de cliente
+    summary: Aplicaciones React/TypeScript encima de CARTO — mapas, flujos y UX adaptados a cada engagement enterprise.
+  - title: Librerías compartidas y arquitectura
+    summary: Paquetes reutilizables, límites de módulos y design systems que mantienen la entrega de Professional Services rápida y consistente.
   - title: Tipado de punta a punta
     summary: TypeScript estricto, tipos expresivos y contratos que detectan errores antes del runtime.
   - title: Developer experience
-    summary: Tooling, convenciones y docs que hacen que lo correcto sea lo fácil.
+    summary: Tooling, convenciones y docs que hacen que lo correcto sea lo fácil en cada engagement.
 principles:
   - title: Claridad sobre ingenio
     summary: El código se lee mucho más de lo que se escribe; optimizo para quien lee.

@@ -1,17 +1,19 @@
 intro: >
   I'm Alberto Arana — a Principal Software Engineer and frontend specialist with solid backend depth.
-  I craft polished interfaces and the APIs, tooling, and architecture that power them. I enjoy the
-  unglamorous parts of engineering: drawing clean boundaries, removing accidental complexity, and
-  leaving a codebase calmer than I found it.
+  My approach is product-oriented: I craft polished interfaces and the APIs, tooling, and architecture
+  that make geospatial products usable for real customers. I enjoy the unglamorous parts of engineering —
+  drawing clean boundaries, removing accidental complexity, and leaving a codebase calmer than I found it.
 focus:
-  - title: Frontend platforms
-    summary: React/TypeScript systems, design systems, and product surfaces that stay coherent as teams and features grow.
-  - title: Scalable architecture
-    summary: Turning fuzzy requirements into systems that stay simple — module boundaries, published libraries, and clear ownership.
+  - title: Product-oriented delivery
+    summary: Start from the user and the business outcome — ship geospatial apps that solve a concrete customer problem, not abstract platforms for their own sake.
+  - title: Geospatial client apps
+    summary: React/TypeScript applications built on top of CARTO — maps, workflows, and UX tailored to each enterprise engagement.
+  - title: Shared libraries & architecture
+    summary: Reusable packages, module boundaries, and design systems that keep Professional Services delivery fast and consistent.
   - title: Type safety end to end
     summary: Strict TypeScript, expressive types, and contracts that catch mistakes before runtime.
   - title: Developer experience
-    summary: Tooling, conventions, and docs that make the right thing the easy thing.
+    summary: Tooling, conventions, and docs that make the right thing the easy thing for every engagement.
 principles:
   - title: Clarity over cleverness
     summary: Code is read far more than it's written; I optimize for the reader.

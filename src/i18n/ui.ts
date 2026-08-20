@@ -10,7 +10,7 @@ export const ui = {
   en: {
     "meta.title": "Alberto Arana — Principal Software Engineer",
     "meta.description":
-      "Principal engineer leading frontend platforms — geospatial products at CARTO, 8+ years shipping React/TypeScript at scale.",
+      "Principal engineer in CARTO Professional Services — product-minded React/TypeScript geospatial apps and shared libraries for enterprise clients.",
 
     "a11y.skipToContent": "Skip to content",
     "a11y.toggleTheme": "Toggle color theme",
@@ -51,7 +51,7 @@ export const ui = {
   es: {
     "meta.title": "Alberto Arana — Ingeniero de Software Principal",
     "meta.description":
-      "Ingeniero principal liderando plataformas frontend — productos geoespaciales en CARTO, 8+ años entregando React/TypeScript a escala.",
+      "Ingeniero principal en CARTO Professional Services — apps geoespaciales React/TypeScript orientadas a producto y librerías compartidas para clientes enterprise.",
 
     "a11y.skipToContent": "Saltar al contenido",
     "a11y.toggleTheme": "Cambiar tema de color",
