@@ -1,45 +1,49 @@
 featured:
-  - slug: carto-frontend-platform
-    title: CARTO Frontend Platform
-    summary: Tech leadership for the Agentic GIS frontend — React/TypeScript at geospatial scale.
+  - slug: carto-professional-services
+    title: CARTO Professional Services
+    summary: Building client apps and consulting on top of CARTO — not the core product platform.
     problem: >
-      Enterprise spatial analytics needs a frontend platform that stays fast under map-heavy workloads,
-      coherent across product surfaces, and shippable by multiple teams without constant merge pain.
+      CARTO customers need production geospatial applications tailored to their data, workflows, and
+      cloud constraints — often under tight delivery timelines and with varying team maturity.
     approach: >
-      Set technical direction for CARTO's React/TypeScript platform, drove design-system adoption,
-      clarified ownership boundaries, and mentored senior engineers while keeping release quality high.
+      As tech lead in Professional Services, I design and ship React/TypeScript applications on top of
+      CARTO, lead technical consulting engagements, and translate product capabilities into solutions
+      that fit each client's architecture and UX needs.
     challenge: >
-      Balancing WebGL/map performance with product velocity, Series C growth, and platform consistency
-      across geospatial features that never leave the customer's cloud.
+      Delivering reliable map-heavy apps across diverse enterprise stacks while keeping quality high,
+      mentoring engineers, and staying aligned with CARTO's APIs without owning the core platform itself.
     outcome: >
-      Sustained frontend leadership through Lead and Principal roles — platform patterns still used
-      across spatial analytics products, with design-system and architecture standards adopted org-wide.
+      Sustained leadership through Lead and Principal roles — client applications shipped in production,
+      reusable patterns shared across engagements, and strong partner-style delivery for CARTO customers.
     differently: >
-      Would invest earlier in measurable performance budgets and published internal packages to reduce
-      duplication across product surfaces.
-    stack: [React, TypeScript, WebGL, Design Systems]
-    tags: [Geospatial, Platform, Tech Lead]
-    demoUrl: https://carto.com
-    repoUrl: null
-  - slug: oss-parameter-libs
-    title: Parameter encode / decode libraries
-    summary: Small, focused open-source utilities for transforming data into URL-safe parameter formats.
-    problem: >
-      Client apps repeatedly needed reliable encoding/decoding of structured parameters for URLs and
-      APIs — without pulling in heavy dependencies.
-    approach: >
-      Published focused JavaScript packages (`encoder-parameters`, `decoder-parameters`) with clear APIs,
-      minimal surface area, and README-first documentation for reuse across projects.
-    challenge: >
-      Keeping the API tiny while covering real-world edge cases, and making the libraries easy to adopt
-      without ceremony.
-    outcome: >
-      Public packages on GitHub that demonstrate library authoring craft — clear contracts, small scope,
-      and reusable utilities beyond a single product codebase.
-    stack: [JavaScript, Node.js, OSS]
-    tags: [Library Authoring, DX, Open Source]
+      Would formalize shared PS tooling earlier so every engagement starts from the same tested foundation.
+    stack: [React, TypeScript, DeckGL, Geospatial]
+    tags: [Professional Services, Consultancy, Client Apps, Tech Lead]
     demoUrl: null
-    repoUrl: https://github.com/aaranadev/encoder-parameters
+    repoUrl: null
+  - slug: carto-ps-lib
+    title: carto-ps-lib
+    summary: CARTO Professional Services Library — a monorepo of React maps, UI, services, and tooling for PS delivery.
+    problem: >
+      Professional Services engagements repeatedly rebuilt the same maps UI, HTTP helpers, and quality
+      configs — slowing delivery and drifting from consistent CARTO styling and best practices.
+    approach: >
+      Built a Turbo monorepo of reusable packages: DeckGL React maps (`@carto/ps-react-maps`), Material-UI
+      components (`@carto/ps-react-ui`), HTTP/data services, shared utils, and a style-guide for ESLint,
+      Prettier, and TypeScript — with Storybook and generated docs for the team.
+    challenge: >
+      Designing package boundaries that work across many client projects, keeping React 19 / DeckGL /
+      MUI stacks coherent, and preparing a private library for a near-term open-source release.
+    outcome: >
+      A comprehensive PS library that gives the team ready-to-use geospatial components, services, and
+      DX tooling so modern CARTO apps ship faster with consistent quality.
+    differently: >
+      Would publish the open-source release path earlier with clearer versioning and adoption docs for
+      external contributors.
+    stack: [React 19, TypeScript, DeckGL, Material-UI, Vite, Turbo, Storybook]
+    tags: [Library Authoring, Monorepo, Geospatial, DX]
+    demoUrl: null
+    repoUrl: https://github.com/CartoDB/carto-ps-lib
   - slug: aarana-dev
     title: aarana.dev
     summary: This site — a static, bilingual portfolio built as a production-quality product MVP.
@@ -56,7 +60,7 @@ featured:
       Fully static bilingual site with strong SEO/a11y/performance baselines — the portfolio itself is
       a working sample of platform thinking and product polish.
     differently: >
-      Would add deeper CASE metrics earlier and surface a downloadable CV from day one.
+      Would add deeper CASE metrics earlier and tighten the project narrative around Professional Services work.
     stack: [Astro, TypeScript, Tailwind CSS, Vercel]
     tags: [Portfolio, i18n, Accessibility, Performance]
     demoUrl: https://aarana.dev
