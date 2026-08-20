@@ -21,7 +21,6 @@ export const ui = {
     "a11y.primaryNav": "Primary",
     "a11y.jumpToContact": "Jump to contact",
     "a11y.jumpToExperience": "Jump to experience",
-    "a11y.downloadResume": "Download resume PDF",
     "a11y.backToTop": "Back to top",
     "a11y.github": "GitHub",
     "a11y.linkedin": "LinkedIn",
@@ -46,8 +45,6 @@ export const ui = {
     "contact.heading": "Let's build something",
     "contact.lead":
       "Open to Principal / Staff Frontend roles — remote collaboration, architecture reviews, and hard problems.",
-    "contact.email": "email",
-    "contact.downloadResume": "download resume",
 
     "footer.tagline": "Building robust systems with calm precision.",
     "footer.rights": "All rights reserved.",
@@ -66,7 +63,6 @@ export const ui = {
     "a11y.primaryNav": "Principal",
     "a11y.jumpToContact": "Ir a contacto",
     "a11y.jumpToExperience": "Ir a experiencia",
-    "a11y.downloadResume": "Descargar CV en PDF",
     "a11y.backToTop": "Volver arriba",
     "a11y.github": "GitHub",
     "a11y.linkedin": "LinkedIn",
@@ -91,8 +87,6 @@ export const ui = {
     "contact.heading": "Construyamos algo",
     "contact.lead":
       "Abierto a roles Principal / Staff Frontend — colaboración remota, revisiones de arquitectura y problemas difíciles.",
-    "contact.email": "email",
-    "contact.downloadResume": "descargar CV",
 
     "footer.tagline": "Construyendo sistemas robustos con precisión y calma.",
     "footer.rights": "Todos los derechos reservados.",

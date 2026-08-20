@@ -16,8 +16,6 @@ const profile = defineCollection({
     tagline: z.string(),
     location: z.string().optional(),
     timezone: z.string().optional(),
-    email: z.string().email().optional(),
-    resumeUrl: z.string().optional(),
     availability: z.string().optional(),
     githubUrl: z.string().url(),
     linkedinUrl: z.string().url(),

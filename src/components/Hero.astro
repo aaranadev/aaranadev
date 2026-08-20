@@ -78,26 +78,13 @@ const btnGhost =
           >
             &#9656; pnpm run contact
           </a>
-          {
-            p.resumeUrl ? (
-              <a
-                href={p.resumeUrl}
-                class={btnGhost}
-                aria-label={t("a11y.downloadResume")}
-                download
-              >
-                import &#123; resume &#125; from './cv'
-              </a>
-            ) : (
-              <a
-                href="#experience"
-                class={btnGhost}
-                aria-label={t("a11y.jumpToExperience")}
-              >
-                import &#123; resume &#125; from './experience'
-              </a>
-            )
-          }
+          <a
+            href="#experience"
+            class={btnGhost}
+            aria-label={t("a11y.jumpToExperience")}
+          >
+            import &#123; resume &#125; from './experience'
+          </a>
         </div>
 
         <div
