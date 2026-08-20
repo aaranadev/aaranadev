@@ -30,29 +30,12 @@ roles:
       - Established frontend patterns still used across the platform
     tags: [React, WebGL, Performance, Spatial Analytics, Platform]
   - title: Lead Frontend Engineer
-    company: Footters
+    company: Footters / Portium
     period: 2017 — 2018
     current: false
-    summary: Tech lead at Footters — built the product UI from scratch and shipped a fast, data-rich experience for live Primera RFEF football league coverage.
+    summary: Tech lead across Footters and Portium — built the Footters product UI from scratch for live Primera RFEF coverage, and owned Portium's web app architecture with a responsive, data-driven interface for sports content.
     highlights:
       - First frontend hire and tech lead for a greenfield sports product
       - Delivered a data-rich live coverage experience under performance constraints
-    tags: [React, Tech Lead, Greenfield, Sports Tech, Performance]
-  - title: Lead Frontend Engineer
-    company: Portium
-    period: 2017 — 2018
-    current: false
-    summary: Lead frontend for Portium within the Footters group — owned the web app architecture and delivered a responsive, data-driven interface for sports content.
-    highlights:
-      - Owned web app architecture for Portium sports content surfaces
-    tags: [React, Tech Lead, Greenfield, Sports Tech, UI Architecture]
-  - title: Early Career
-    company: baagloo · Toury de Fietsgame · RealCom Code · Schneider Electric · AZCATEC
-    period: 2014 — 2017
-    current: false
-    summary: Foundation years across consultancy, product startups, and enterprise — full-stack JavaScript delivery, interactive UIs, enterprise frontends, and early systems/network work that shaped a product-minded engineering craft.
-    highlights:
-      - Full-stack client delivery at baagloo; interactive game UI at Toury de Fietsgame
-      - Enterprise frontends at RealCom Code and Schneider Electric
-      - Systems, hardware, and networks foundation at AZCATEC
-    tags: [JavaScript, Frontend, Full Stack, Enterprise, Systems]
+      - Owned Portium web app architecture for sports content surfaces
+    tags: [React, Tech Lead, Greenfield, Sports Tech, Performance, UI Architecture]

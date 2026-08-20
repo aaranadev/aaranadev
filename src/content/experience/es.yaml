@@ -30,29 +30,12 @@ roles:
       - Patrones frontend aún en uso en la plataforma
     tags: [React, WebGL, Rendimiento, Analítica Espacial, Plataforma]
   - title: Lead Frontend Engineer
-    company: Footters
+    company: Footters / Portium
     period: 2017 — 2018
     current: false
-    summary: Tech lead en Footters — construí la UI del producto desde cero y entregué una experiencia rápida y rica en datos para la cobertura en vivo de la Primera RFEF.
+    summary: Tech lead en Footters y Portium — construí la UI de Footters desde cero para la cobertura en vivo de la Primera RFEF, y lideré la arquitectura de la app web de Portium con una interfaz responsive y orientada a datos para contenido deportivo.
     highlights:
       - Primer frontend y tech lead en un producto deportivo greenfield
       - Experiencia de cobertura en vivo rica en datos bajo restricciones de rendimiento
-    tags: [React, Tech Lead, Greenfield, Sports Tech, Rendimiento]
-  - title: Lead Frontend Engineer
-    company: Portium
-    period: 2017 — 2018
-    current: false
-    summary: Frontend lead en Portium dentro del grupo Footters — arquitectura de la app web e interfaz responsive y orientada a datos para contenido deportivo.
-    highlights:
       - Arquitectura de la app web de Portium para superficies de contenido deportivo
-    tags: [React, Tech Lead, Greenfield, Sports Tech, UI Architecture]
-  - title: Early Career
-    company: baagloo · Toury de Fietsgame · RealCom Code · Schneider Electric · AZCATEC
-    period: 2014 — 2017
-    current: false
-    summary: Años de base en consultoría, startups de producto y enterprise — entrega full-stack JavaScript, UIs interactivas, frontends enterprise y trabajo temprano de sistemas/redes que forjó un craft de ingeniería orientado a producto.
-    highlights:
-      - Entrega full-stack en baagloo; UI de juego interactiva en Toury de Fietsgame
-      - Frontends enterprise en RealCom Code y Schneider Electric
-      - Base de sistemas, hardware y redes en AZCATEC
-    tags: [JavaScript, Frontend, Full Stack, Enterprise, Sistemas]
+    tags: [React, Tech Lead, Greenfield, Sports Tech, Rendimiento, UI Architecture]
