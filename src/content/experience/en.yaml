@@ -4,58 +4,55 @@ roles:
     period: 2026 — Present
     current: true
     summary: Tech lead for CARTO's frontend platform — setting technical direction across the Agentic GIS product, mentoring senior engineers, and driving architecture that keeps geospatial analytics fast, composable, and shippable at scale.
-    tags: [React, WebGL, Performance, Spatial Analytics, Platform, Engineering Manager, Tech Lead, TypeScript, Design Systems, Mentorship, Architecture, Frontend Platform, Geospatial]
+    highlights:
+      - Mentors senior engineers and sets architectural direction for the frontend platform
+      - Owns platform standards that keep geospatial UIs composable across product surfaces
+      - Continues the Lead → Principal arc with org-wide design-system and architecture adoption
+    tags: [Mentorship, Architecture, Frontend Platform, Geospatial, Tech Lead, Design Systems, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
     summary: Tech lead and engineering manager for CARTO's frontend organization — scaled the team through a Series C, owned the React/TypeScript platform, and shipped design-system adoption, platform boundaries, and release quality across spatial analytics products.
-    tags: [React, WebGL, Performance, Spatial Analytics, Platform, Engineering Manager, Tech Lead, TypeScript, Design Systems]
+    highlights:
+      - Engineering manager and tech lead through Series C growth
+      - Owned the React/TypeScript platform and design-system rollout
+      - Raised release quality across map-heavy spatial analytics products
+    tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Senior Software Engineer
     company: CARTO
     period: 2018 — 2019
     current: false
     summary: Senior engineer on CARTO's core platform during the Geographica integration — delivered high-impact spatial analytics features, hardened performance on map-heavy workloads, and established frontend patterns the org still builds on today.
+    highlights:
+      - Shipped high-impact spatial analytics features during the Geographica integration
+      - Hardened performance for map-heavy WebGL workloads
+      - Established frontend patterns still used across the platform
     tags: [React, WebGL, Performance, Spatial Analytics, Platform]
   - title: Lead Frontend Engineer
     company: Footters
     period: 2017 — 2018
     current: false
     summary: Tech lead at Footters — built the product UI from scratch and shipped a fast, data-rich experience for live Primera RFEF football league coverage.
+    highlights:
+      - First frontend hire and tech lead for a greenfield sports product
+      - Delivered a data-rich live coverage experience under performance constraints
     tags: [React, Tech Lead, Greenfield, Sports Tech, Performance]
   - title: Lead Frontend Engineer
     company: Portium
     period: 2017 — 2018
     current: false
     summary: Lead frontend for Portium within the Footters group — owned the web app architecture and delivered a responsive, data-driven interface for sports content.
+    highlights:
+      - Owned web app architecture for Portium sports content surfaces
     tags: [React, Tech Lead, Greenfield, Sports Tech, UI Architecture]
-  - title: Frontend Developer
-    company: Toury de Fietsgame
-    period: "2017"
+  - title: Early Career
+    company: baagloo · Toury de Fietsgame · RealCom Code · Schneider Electric · AZCATEC
+    period: 2014 — 2017
     current: false
-    summary: Built the frontend for a cycling game experience — interactive UI, game flows, and performance-conscious rendering in a product-focused startup.
-    tags: [Frontend, JavaScript, Interactive UI, Game UX, Performance]
-  - title: Full Stack Developer
-    company: baagloo
-    period: "2017"
-    current: false
-    summary: Full-stack delivery across client projects — modern JavaScript from API design through responsive UI in a small, fast-moving consultancy.
-    tags: [Full Stack, JavaScript, Consultancy, Ionic, Client Delivery]
-  - title: Frontend Developer
-    company: RealCom Code
-    period: "2016"
-    current: false
-    summary: Production frontends for enterprise clients — component-driven interfaces, cross-browser quality, and close collaboration with design and backend teams.
-    tags: [Frontend, Enterprise, JavaScript, UI Engineering, Components]
-  - title: Frontend Developer
-    company: Schneider Electric
-    period: "2016"
-    current: false
-    summary: Delivered frontend solutions for Schneider Electric — enterprise-grade interfaces, accessibility standards, and integration with backend services.
-    tags: [Frontend, Enterprise, JavaScript, Accessibility, Integration]
-  - title: IT Systems Developer
-    company: AZCATEC
-    period: 2014 — 2016
-    current: false
-    summary: Early-career role spanning hardware, software, and network management — foundational experience in building and maintaining production systems end to end.
-    tags: [Systems, Networks, Hardware, Software, Infrastructure]
+    summary: Foundation years across consultancy, product startups, and enterprise — full-stack JavaScript delivery, interactive UIs, enterprise frontends, and early systems/network work that shaped a product-minded engineering craft.
+    highlights:
+      - Full-stack client delivery at baagloo; interactive game UI at Toury de Fietsgame
+      - Enterprise frontends at RealCom Code and Schneider Electric
+      - Systems, hardware, and networks foundation at AZCATEC
+    tags: [JavaScript, Frontend, Full Stack, Enterprise, Systems]

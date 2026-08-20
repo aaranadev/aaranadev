@@ -25,6 +25,10 @@ function currentTheme(): Theme {
 
 function apply(theme: Theme): void {
   document.documentElement.dataset.theme = theme;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.setAttribute("content", theme === "light" ? "#faf8ff" : "#0f172a");
+  }
   document.querySelectorAll("[data-theme-toggle]").forEach((btn) => {
     btn.setAttribute("aria-pressed", String(theme === "light"));
   });

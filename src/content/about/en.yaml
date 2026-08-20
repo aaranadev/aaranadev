@@ -1,0 +1,24 @@
+intro: >
+  I'm Alberto Arana — a Principal Software Engineer and frontend specialist with solid backend depth.
+  I craft polished interfaces and the APIs, tooling, and architecture that power them. I enjoy the
+  unglamorous parts of engineering: drawing clean boundaries, removing accidental complexity, and
+  leaving a codebase calmer than I found it.
+focus:
+  - title: Frontend platforms
+    summary: React/TypeScript systems, design systems, and product surfaces that stay coherent as teams and features grow.
+  - title: Scalable architecture
+    summary: Turning fuzzy requirements into systems that stay simple — module boundaries, published libraries, and clear ownership.
+  - title: Type safety end to end
+    summary: Strict TypeScript, expressive types, and contracts that catch mistakes before runtime.
+  - title: Developer experience
+    summary: Tooling, conventions, and docs that make the right thing the easy thing.
+principles:
+  - title: Clarity over cleverness
+    summary: Code is read far more than it's written; I optimize for the reader.
+  - title: Small, reversible steps
+    summary: Ship in thin slices, keep the build green, learn quickly.
+  - title: Accessibility and performance are features
+    summary: Not afterthoughts — this site targets 100/100 on both.
+  - title: Calm precision
+    summary: Measured decisions, honest trade-offs, and no drama in the pipeline.
+openTo: Open to Principal / Staff Frontend roles — remote collaboration, architecture leadership, and hard product problems.

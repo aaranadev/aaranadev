@@ -39,7 +39,30 @@ const personLd = {
   jobTitle: profile.role,
   description,
   image: ogImage.href,
+  email: profile.email,
   sameAs: [profile.githubUrl, profile.linkedinUrl],
+  worksFor: {
+    "@type": "Organization",
+    name: "CARTO",
+    url: "https://carto.com",
+  },
+  knowsAbout: [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "Frontend platforms",
+    "Design systems",
+    "Geospatial",
+    "WebGL",
+    "Software architecture",
+    "AI integration",
+  ],
+  address: profile.location
+    ? {
+        "@type": "PostalAddress",
+        addressLocality: profile.location,
+      }
+    : undefined,
 };
 ---
 
@@ -56,7 +79,7 @@ const personLd = {
     <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="theme-color" content="#0f172a" data-theme-color />
     <meta name="generator" content={Astro.generator} />
 
     <link rel="sitemap" href="/sitemap-index.xml" />
@@ -110,6 +133,8 @@ const personLd = {
                 ? "light"
                 : "dark";
           document.documentElement.dataset.theme = theme;
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute("content", theme === "light" ? "#faf8ff" : "#0f172a");
         } catch (e) {
           document.documentElement.dataset.theme = "dark";
         }

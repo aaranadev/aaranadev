@@ -10,7 +10,7 @@ export const ui = {
   en: {
     "meta.title": "Alberto Arana — Principal Software Engineer",
     "meta.description":
-      "Principal Software Engineer specializing in scalable architecture, frontend platforms, and high-performance systems.",
+      "Principal engineer leading frontend platforms — geospatial products at CARTO, 8+ years shipping React/TypeScript at scale.",
 
     "a11y.skipToContent": "Skip to content",
     "a11y.toggleTheme": "Toggle color theme",
@@ -21,14 +21,33 @@ export const ui = {
     "a11y.primaryNav": "Primary",
     "a11y.jumpToContact": "Jump to contact",
     "a11y.jumpToExperience": "Jump to experience",
+    "a11y.downloadResume": "Download resume PDF",
     "a11y.backToTop": "Back to top",
+    "a11y.github": "GitHub",
+    "a11y.linkedin": "LinkedIn",
 
+    "section.about": "About",
+    "section.projects": "Projects",
     "section.stack": "Tech stack",
     "section.experience": "Experience",
     "section.contact": "Contact",
 
+    "about.focus": "What I focus on",
+    "about.principles": "How I work",
+
+    "projects.problem": "Problem",
+    "projects.approach": "Approach",
+    "projects.challenge": "Challenge",
+    "projects.outcome": "Outcome",
+    "projects.differently": "Differently",
+    "projects.demo": "demo",
+    "projects.repo": "repo",
+
     "contact.heading": "Let's build something",
-    "contact.lead": "Open to collaboration, architecture reviews, and hard problems.",
+    "contact.lead":
+      "Open to Principal / Staff Frontend roles — remote collaboration, architecture reviews, and hard problems.",
+    "contact.email": "email",
+    "contact.downloadResume": "download resume",
 
     "footer.tagline": "Building robust systems with calm precision.",
     "footer.rights": "All rights reserved.",
@@ -36,7 +55,7 @@ export const ui = {
   es: {
     "meta.title": "Alberto Arana — Ingeniero de Software Principal",
     "meta.description":
-      "Ingeniero de Software Principal especializado en arquitectura escalable, plataformas frontend y sistemas de alto rendimiento.",
+      "Ingeniero principal liderando plataformas frontend — productos geoespaciales en CARTO, 8+ años entregando React/TypeScript a escala.",
 
     "a11y.skipToContent": "Saltar al contenido",
     "a11y.toggleTheme": "Cambiar tema de color",
@@ -47,14 +66,33 @@ export const ui = {
     "a11y.primaryNav": "Principal",
     "a11y.jumpToContact": "Ir a contacto",
     "a11y.jumpToExperience": "Ir a experiencia",
+    "a11y.downloadResume": "Descargar CV en PDF",
     "a11y.backToTop": "Volver arriba",
+    "a11y.github": "GitHub",
+    "a11y.linkedin": "LinkedIn",
 
+    "section.about": "Sobre mí",
+    "section.projects": "Proyectos",
     "section.stack": "Stack técnico",
     "section.experience": "Experiencia",
     "section.contact": "Contacto",
 
+    "about.focus": "En qué me enfoco",
+    "about.principles": "Cómo trabajo",
+
+    "projects.problem": "Problema",
+    "projects.approach": "Enfoque",
+    "projects.challenge": "Reto",
+    "projects.outcome": "Resultado",
+    "projects.differently": "Diferente",
+    "projects.demo": "demo",
+    "projects.repo": "repo",
+
     "contact.heading": "Construyamos algo",
-    "contact.lead": "Abierto a colaboración, revisiones de arquitectura y problemas difíciles.",
+    "contact.lead":
+      "Abierto a roles Principal / Staff Frontend — colaboración remota, revisiones de arquitectura y problemas difíciles.",
+    "contact.email": "email",
+    "contact.downloadResume": "descargar CV",
 
     "footer.tagline": "Construyendo sistemas robustos con precisión y calma.",
     "footer.rights": "Todos los derechos reservados.",

@@ -1,8 +1,12 @@
 name: Alberto Arana
 role: Ingeniero de Software Principal
 roleToken: PRINCIPAL_SOFTWARE_ENGINEER.js
-tagline: Especialista en frontend con base sólida en backend — construyo interfaces pulidas y las APIs, herramientas y arquitectura que las sostienen.
+tagline: Ingeniero principal liderando plataformas frontend — productos geoespaciales en CARTO, 8+ años entregando React/TypeScript a escala.
 location: Remoto
+timezone: CET (UTC+1)
+email: hello@aarana.dev
+resumeUrl: /resume.pdf
+availability: Abierto a roles Principal / Staff Frontend — remoto
 githubUrl: https://github.com/aaranadev
 linkedinUrl: https://www.linkedin.com/in/aaranadev/
 githubHandle: github.com/aaranadev

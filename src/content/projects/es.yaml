@@ -1,0 +1,63 @@
+featured:
+  - slug: carto-frontend-platform
+    title: Plataforma Frontend CARTO
+    summary: Liderazgo técnico del frontend Agentic GIS — React/TypeScript a escala geoespacial.
+    problem: >
+      La analítica espacial enterprise necesita una plataforma frontend rápida bajo cargas con mapas,
+      coherente entre superficies de producto y entregable por varios equipos sin fricción constante.
+    approach: >
+      Dirección técnica de la plataforma React/TypeScript de CARTO, adopción de design system,
+      límites de ownership claros y mentoría a ingenieros senior manteniendo calidad de release.
+    challenge: >
+      Equilibrar rendimiento WebGL/mapas con velocidad de producto, crecimiento post Serie C y
+      consistencia de plataforma en features geoespaciales que no salen del cloud del cliente.
+    outcome: >
+      Liderazgo frontend sostenido en roles Lead y Principal — patrones de plataforma aún en uso
+      en productos de analítica espacial, con estándares de design system y arquitectura a nivel org.
+    differently: >
+      Invertiría antes en budgets de rendimiento medibles y paquetes internos publicados para reducir
+      duplicación entre superficies de producto.
+    stack: [React, TypeScript, WebGL, Design Systems]
+    tags: [Geoespacial, Plataforma, Tech Lead]
+    demoUrl: https://carto.com
+    repoUrl: null
+  - slug: oss-parameter-libs
+    title: Librerías encode / decode de parámetros
+    summary: Utilidades OSS pequeñas y enfocadas para transformar datos a formatos de parámetros URL-safe.
+    problem: >
+      Las apps cliente necesitaban encoding/decoding fiable de parámetros estructurados para URLs y
+      APIs — sin dependencias pesadas.
+    approach: >
+      Paquetes JavaScript focalizados (`encoder-parameters`, `decoder-parameters`) con APIs claras,
+      superficie mínima y documentación README-first para reutilizar entre proyectos.
+    challenge: >
+      Mantener la API mínima cubriendo edge cases reales, y hacer las librerías fáciles de adoptar
+      sin ceremonia.
+    outcome: >
+      Paquetes públicos en GitHub que demuestran craft de autoría de librerías — contratos claros,
+      scope pequeño y utilidades reutilizables más allá de un único producto.
+    stack: [JavaScript, Node.js, OSS]
+    tags: [Autoría de Librerías, DX, Open Source]
+    demoUrl: null
+    repoUrl: https://github.com/aaranadev/encoder-parameters
+  - slug: aarana-dev
+    title: aarana.dev
+    summary: Este sitio — portfolio estático bilingüe construido como un MVP de producto listo para producción.
+    problem: >
+      Hace falta una URL única que convierta el escaneo de un recruiter en conversación — con evidencia
+      de craft, narrativa de carrera y vías de contacto — no un dump de plantilla.
+    approach: >
+      Sitio estático Astro 7, content collections por locale, tokens Tailwind v4, estética terminal/IDE,
+      Person JSON-LD, hreflang e interacciones accessibility-first (tema, dialog móvil).
+    challenge: >
+      Equilibrar una estética developer distintiva con claridad para recruiters no técnicos, manteniendo
+      Lighthouse cerca de 100 y entregando EN/ES en paralelo.
+    outcome: >
+      Sitio bilingüe 100% estático con bases sólidas de SEO/a11y/rendimiento — el portfolio es en sí
+      una muestra de pensamiento de plataforma y pulido de producto.
+    differently: >
+      Añadiría métricas CASE más profundas antes y un CV descargable desde el día uno.
+    stack: [Astro, TypeScript, Tailwind CSS, Vercel]
+    tags: [Portfolio, i18n, Accesibilidad, Rendimiento]
+    demoUrl: https://aarana.dev
+    repoUrl: https://github.com/aaranadev/aaranadev

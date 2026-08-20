@@ -1,6 +1,8 @@
 ---
 import type { Locale } from "@/i18n/config";
 import Hero from "./Hero.astro";
+import About from "./About.astro";
+import Projects from "./Projects.astro";
 import TechStack from "./TechStack.astro";
 import Experience from "./Experience.astro";
 import Socials from "./Socials.astro";
@@ -13,6 +15,8 @@ const { locale } = Astro.props;
 ---
 
 <Hero locale={locale} />
+<About locale={locale} />
+<Projects locale={locale} />
 <TechStack locale={locale} />
 <Experience locale={locale} />
 <Socials locale={locale} />

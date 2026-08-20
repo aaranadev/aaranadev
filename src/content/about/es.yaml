@@ -1,0 +1,24 @@
+intro: >
+  Soy Alberto Arana — Ingeniero de Software Principal y especialista en frontend con base sólida en backend.
+  Construyo interfaces pulidas y las APIs, herramientas y arquitectura que las sostienen. Disfruto las
+  partes poco glamurosas de la ingeniería: límites claros, menos complejidad accidental y dejar el
+  código más calmado de lo que lo encontré.
+focus:
+  - title: Plataformas frontend
+    summary: Sistemas React/TypeScript, design systems y superficies de producto que se mantienen coherentes cuando crecen equipos y features.
+  - title: Arquitectura escalable
+    summary: Convertir requisitos difusos en sistemas simples — límites de módulos, librerías publicadas y ownership claro.
+  - title: Tipado de punta a punta
+    summary: TypeScript estricto, tipos expresivos y contratos que detectan errores antes del runtime.
+  - title: Developer experience
+    summary: Tooling, convenciones y docs que hacen que lo correcto sea lo fácil.
+principles:
+  - title: Claridad sobre ingenio
+    summary: El código se lee mucho más de lo que se escribe; optimizo para quien lee.
+  - title: Pasos pequeños y reversibles
+    summary: Entregar en slices finos, build en verde, aprender rápido.
+  - title: Accesibilidad y rendimiento son features
+    summary: No son afterthoughts — este sitio apunta a 100/100 en ambos.
+  - title: Precisión serena
+    summary: Decisiones medidas, trade-offs honestos y cero drama en el pipeline.
+openTo: Abierto a roles Principal / Staff Frontend — colaboración remota, liderazgo de arquitectura y problemas de producto difíciles.
