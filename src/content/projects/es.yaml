@@ -29,18 +29,18 @@ featured:
       HTTP y configs de calidad — ralentizando la entrega y desviándose de un estilo CARTO consistente.
     approach: >
       Monorepo Turbo de paquetes reutilizables: mapas React con DeckGL (`@carto/ps-react-maps`), componentes
-      Material-UI (`@carto/ps-react-ui`), servicios HTTP/datos, utils compartidas y style-guide (ESLint,
+      React UI (`@carto/ps-react-ui`), servicios HTTP/datos, utils compartidas y style-guide (ESLint,
       Prettier, TypeScript) — con Storybook y docs generadas para el equipo.
     challenge: >
       Diseñar límites de paquetes útiles en muchos proyectos de cliente, mantener coherente el stack
-      React 19 / DeckGL / MUI, y preparar una librería privada para un open-source cercano.
+      React / DeckGL, y preparar una librería privada para un open-source cercano.
     outcome: >
       Una librería PS completa que da al equipo componentes geoespaciales, servicios y DX listos para
       usar, de modo que las apps CARTO modernas se entreguen más rápido y con calidad consistente.
     differently: >
       Publicaría antes el camino a open-source con versionado más claro y docs de adopción para
       contribuidores externos.
-    stack: [React 19, TypeScript, DeckGL, Material-UI, Vite, Turbo, Storybook]
+    stack: [React, TypeScript, DeckGL, Vite, Turbo, Storybook]
     tags: [Autoría de Librerías, Monorepo, Geoespacial, DX]
     demoUrl: null
     repoUrl: https://github.com/CartoDB/carto-ps-lib
