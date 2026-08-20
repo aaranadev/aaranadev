@@ -3,21 +3,21 @@ roles:
     company: CARTO
     period: 2026 — Present
     current: true
-    summary: Tech lead in CARTO Professional Services — setting technical direction for product-minded geospatial client applications, mentoring senior engineers, and growing shared libraries that keep enterprise delivery fast and consistent.
+    summary: Tech lead in CARTO Professional Services — leading the Site Selection product, setting technical direction for product-minded geospatial client applications, mentoring a 5+ engineer team, and growing shared libraries that keep enterprise delivery fast and consistent.
     highlights:
-      - Sets technical direction across concurrent PS engagements so client apps stay product-quality under real delivery pressure
-      - Mentors senior engineers and raises the architectural bar for React/TypeScript geospatial delivery
-      - Grows shared PS libraries and standards that cut rework and keep map-heavy apps consistent — without owning CARTO's core platform
-    tags: [Mentorship, Architecture, Professional Services, Geospatial, Tech Lead, Design Systems, React, WebGL]
+      - Leads the Site Selection product — a production geospatial application for location decisioning
+      - Mentors a 5+ engineer PS team and raises the architectural bar for React/TypeScript geospatial delivery
+      - Grows carto-ps-lib and PS standards so engagements ship faster without owning CARTO's core platform
+    tags: [Site Selection, Mentorship, Architecture, Professional Services, Geospatial, Tech Lead, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
-    summary: Tech lead and engineering manager in CARTO Professional Services — scaled the team through a Series C, owned React/TypeScript delivery for client geospatial products, and shipped design-system adoption, shared patterns, and release quality across enterprise engagements.
+    summary: Tech lead and engineering manager in CARTO Professional Services — scaled a 5+ engineer team through a Series C, owned React/TypeScript delivery for 20+ client geospatial apps in production, and shipped design-system adoption, shared patterns, and release quality across enterprise engagements.
     highlights:
-      - Scaled PS frontend capacity as engineering manager and tech lead through Series C growth
-      - Owned React/TypeScript delivery of client geospatial products from discovery through production handoff
-      - Drove design-system and shared-pattern adoption that reduced rework across map-heavy enterprise engagements
+      - Scaled a 5+ engineer PS frontend team as EM/tech lead through Series C growth
+      - Delivered 20+ client geospatial applications to production across enterprise engagements
+      - Drove design-system and shared-pattern adoption that reduced rework on map-heavy products
     tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Senior Software Engineer
     company: CARTO

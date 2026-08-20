@@ -7,9 +7,9 @@ focus:
   - title: Product-oriented delivery
     summary: Start from the user and the business outcome — ship geospatial apps that solve a concrete customer problem, not abstract platforms for their own sake.
   - title: Geospatial client apps
-    summary: React/TypeScript applications built on top of CARTO — maps, workflows, and UX tailored to each enterprise engagement.
+    summary: React/TypeScript applications built on top of CARTO — including leading Site Selection — with maps, workflows, and UX tailored to each enterprise engagement.
   - title: Shared libraries & architecture
-    summary: Reusable packages, module boundaries, and design systems that keep Professional Services delivery fast and consistent.
+    summary: carto-ps-lib and related packages — maps, widgets, layers, geometry editing — so PS teams and AI-assisted POCs start from the same foundation.
   - title: Type safety end to end
     summary: Strict TypeScript, expressive types, and contracts that catch mistakes before runtime.
   - title: Developer experience

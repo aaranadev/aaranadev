@@ -1,7 +1,7 @@
 featured:
   - slug: carto-professional-services
     title: CARTO Professional Services
-    summary: Apps de cliente y consultoría sobre CARTO — no la plataforma core del producto.
+    summary: Apps de cliente y consultoría sobre CARTO — no la plataforma core del producto. Actualmente liderando el producto Site Selection.
     context: >
       Location intelligence para clientes enterprise — apps de analítica y decisión geoespacial en
       industrias anonimizadas (retail, logística y adyacentes). Sin demos públicas a propósito.
@@ -10,45 +10,49 @@ featured:
       flujos y restricciones cloud — a menudo con plazos ajustados y madurez de equipo desigual.
     approach: >
       Como tech lead en Professional Services, diseño y entrego aplicaciones React/TypeScript encima de
-      CARTO, lidero consultoría técnica y traduzco las capacidades del producto en soluciones que encajan
-      con la arquitectura y la UX de cada cliente.
+      CARTO con un equipo de 5+ ingenieros, lidero consultoría técnica y actualmente la dirección técnica
+      del producto Site Selection — traduciendo capacidades de CARTO en UX lista para cliente.
     challenge: >
       Entregar apps fiables con mapas en stacks enterprise diversos manteniendo calidad, mentoría y
       alineación con las APIs de CARTO sin ser owner de la plataforma core.
     outcome: >
-      Apps geoespaciales de cliente en producción a lo largo de engagements de PS; patrones frontend
-      reutilizables y playbooks de consultoría que aceleran la entrega mientras la plataforma core de
-      CARTO sigue en el org de producto.
+      20+ apps geoespaciales de cliente en producción; Site Selection liderado como producto en
+      producción; patrones frontend reutilizables y playbooks de consultoría que mantienen rápida la
+      entrega de PS mientras la plataforma core de CARTO sigue en el org de producto.
     differently: >
       Formalizaría antes el tooling compartido de PS para que cada engagement parta de la misma base probada.
     stack: [React, TypeScript, DeckGL, Geoespacial]
-    tags: [Professional Services, Consultoría, Apps de Cliente, Tech Lead]
+    tags: [Professional Services, Site Selection, Apps de Cliente, Tech Lead]
     demoUrl: null
     repoUrl: null
   - slug: carto-ps-lib
     title: carto-ps-lib
-    summary: CARTO Professional Services Library — monorepo de mapas React, UI, servicios y tooling para delivery de PS.
+    summary: CARTO Professional Services Library — mapas, widgets, layers, edición de geometrías, servicios y tooling en un monorepo para delivery de PS.
     context: >
       Repo GitHub privado hoy (acceso de equipo) — release open-source previsto pronto. El enlace apunta
       al repositorio existente en la org de CARTO.
     problem: >
-      Los engagements de Professional Services reconstruían una y otra vez la misma UI de mapas, helpers
-      HTTP y configs de calidad — ralentizando la entrega y desviándose de un estilo CARTO consistente.
+      Los engagements de Professional Services reconstruían una y otra vez la misma UI de mapas, widgets,
+      layers, edición de geometrías, helpers HTTP y configs de calidad — ralentizando la entrega y
+      desviándose de un estilo CARTO consistente.
     approach: >
-      Monorepo Turbo de paquetes reutilizables: mapas React con DeckGL (`@carto/ps-react-maps`), componentes
-      React UI (`@carto/ps-react-ui`), servicios HTTP/datos, utils compartidas y style-guide (ESLint,
-      Prettier, TypeScript) — con Storybook y docs generadas para el equipo.
+      Monorepo Turbo que centraliza los building blocks de PS: mapas React con DeckGL (`@carto/ps-react-maps`),
+      React UI/widgets (`@carto/ps-react-ui`), layers, edición de geometrías, servicios HTTP/datos, utils
+      compartidas y style-guide (ESLint, Prettier, TypeScript) — con Storybook, docs generadas y scaffolding
+      AI orientado a tickets para generar POCs desde los mismos primitivos gestionados.
     challenge: >
       Diseñar límites de paquetes útiles en muchos proyectos de cliente, mantener coherente el stack
-      React / DeckGL, y preparar una librería privada para un open-source cercano.
+      React / DeckGL, habilitar generación de POCs asistida por AI a partir de tickets, y preparar una
+      librería privada para un open-source cercano.
     outcome: >
-      Monorepo interno de PS adoptado para UI de mapas, servicios y tooling de calidad — menos rebuilds
-      greenfield por engagement, UX más alineada con CARTO, y un camino claro a docs y versionado OSS públicos.
+      Adoptada en la entrega de PS — ~80% menos tiempo para levantar POCs componiendo mapas, widgets,
+      layers y edición de geometrías desde la lib en lugar de reconstruir; generación asistida por AI
+      desde tickets sobre esos primitivos; camino más claro a docs y versionado OSS públicos.
     differently: >
       Publicaría antes el camino a open-source con versionado más claro y docs de adopción para
       contribuidores externos.
     stack: [React, TypeScript, DeckGL, Vite, Turbo, Storybook]
-    tags: [Autoría de Librerías, Monorepo, Geoespacial, DX]
+    tags: [Autoría de Librerías, Monorepo, Geoespacial, AI DX]
     demoUrl: null
     repoUrl: https://github.com/CartoDB/carto-ps-lib
   - slug: aarana-dev

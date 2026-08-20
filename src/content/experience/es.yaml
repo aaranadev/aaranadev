@@ -3,21 +3,21 @@ roles:
     company: CARTO
     period: 2026 — Presente
     current: true
-    summary: Tech lead en CARTO Professional Services — dirección técnica de aplicaciones geoespaciales de cliente orientadas a producto, mentoría a ingenieros senior y librerías compartidas que mantienen la entrega enterprise rápida y consistente.
+    summary: Tech lead en CARTO Professional Services — liderando el producto Site Selection, dirección técnica de aplicaciones geoespaciales de cliente orientadas a producto, mentoría a un equipo de 5+ ingenieros y librerías compartidas que mantienen la entrega enterprise rápida y consistente.
     highlights:
-      - Dirección técnica en engagements de PS concurrentes para que las apps de cliente mantengan calidad de producto bajo presión real de entrega
-      - Mentoría a ingenieros senior y subida del listón arquitectónico en entrega React/TypeScript geoespacial
-      - Librerías y estándares compartidos de PS que reducen rework y mantienen coherentes las apps con mapas — sin ownership de la plataforma core de CARTO
-    tags: [Mentoría, Arquitectura, Professional Services, Geoespacial, Tech Lead, Design Systems, React, WebGL]
+      - Lidera el producto Site Selection — aplicación geoespacial de producción para decisión de ubicación
+      - Mentoría a un equipo PS de 5+ ingenieros y subida del listón arquitectónico en entrega React/TypeScript geoespacial
+      - Crece carto-ps-lib y estándares de PS para acelerar engagements sin ownership de la plataforma core de CARTO
+    tags: [Site Selection, Mentoría, Arquitectura, Professional Services, Geoespacial, Tech Lead, React, WebGL]
   - title: Lead Frontend Engineer
     company: CARTO
     period: 2019 — 2026
     current: false
-    summary: Tech lead y engineering manager en CARTO Professional Services — escalé el equipo durante una Serie C, lideré la entrega React/TypeScript de productos geoespaciales de cliente e impulsé design systems, patrones compartidos y calidad de release en engagements enterprise.
+    summary: Tech lead y engineering manager en CARTO Professional Services — escalé un equipo de 5+ ingenieros durante una Serie C, lideré la entrega React/TypeScript de 20+ apps geoespaciales de cliente en producción e impulsé design systems, patrones compartidos y calidad de release en engagements enterprise.
     highlights:
-      - Escalado de capacidad frontend de PS como engineering manager y tech lead durante el crecimiento de la Serie C
-      - Ownership de la entrega React/TypeScript de productos geoespaciales de cliente desde discovery hasta handoff a producción
-      - Adopción de design system y patrones compartidos que redujeron rework en engagements enterprise con mapas
+      - Escalado de un equipo frontend PS de 5+ ingenieros como EM/tech lead durante el crecimiento de la Serie C
+      - 20+ aplicaciones geoespaciales de cliente entregadas a producción en engagements enterprise
+      - Adopción de design system y patrones compartidos que redujeron rework en productos con mapas
     tags: [Engineering Manager, Tech Lead, TypeScript, Design Systems, React, WebGL]
   - title: Ingeniero de Software Senior
     company: CARTO
